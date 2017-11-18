@@ -1,0 +1,42 @@
+ p{ margin:0}
+   input{ margin:0; padding:0; border:none;}
+   ul,dl,dd{ margin:0}
+   ul{ padding:0; list-style:none}
+   body{ margin:0; background-color:#f0f0f0; overflow-y:scroll}
+   img{ display:block}
+   *{ font-size:14px; font-family:"微软雅黑"; color:#4c4c4c}
+   a{ text-decoration:none;}
+   .top-nav-bj *{ color:#FFF}
+   .top-nav-box,.last-nav-box,.top-title,.main-nav,.tip,.content,.tip2,.yanzheng,.return-button-box{ width:1150px; margin-left:auto; margin-right:auto}
+   .top-nav-bj{ background-color:#3b3a38; height:55px; min-width:1150px}
+   .top-nav .left *{ float:left;}
+   .top-nav .left img{ margin-top:19px; margin-right:60px}
+   .top-nav .left a{ line-height:55px; margin-right:60px}
+   .top-nav .left .one{ margin-top:13px}
+   .top-nav .right a{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+   .top-information-bj{ height:116px; background-color:#FFF; margin-top:20px; border-top:solid 1px #bcbcbc; border-bottom:solid 1px #bcbcbc}
+   .last-div{ clear:both}
+   .top-title{ font-size:16px; font-weight:bold; margin-top:40px; margin-bottom:40px}
+   .main-nav .word dl{ float:left; margin-left:50px; color:#808080} 
+   .main-nav .word .a5{ color:#4c4c4c}
+   .main-nav .line1{ width:74px; height:2px; background-color:#1a9dd1; margin-left:482px; margin-top:10px}
+   .main-nav .line2{ width:1150px; height:1px; background-color:#808080; margin-bottom:20px}
+   .tip .word{ color:#1a9dd1; margin-left:50px}
+   .content .c1 *{ float:left; margin-top:20px}
+   .content .c1 input{ width:400px; height:30px; border:solid 1px #bcbcbc; background-color:#f0f0f0}
+   .content .c1 .word1{ line-height:30px}
+   .content .c1{ margin-left:90px}
+   .content .c2 *{ float:left; margin-top:20px}
+   .content .c2 textarea{ width:400px; height:150px; border:solid 1px #bcbcbc; background-color:#f0f0f0}
+   .content .c2 .word1{ line-height:30px}
+   .content .c2{ margin-left:90px}
+   .tip2 .word2{ margin-left:160px; padding-top:10px}
+   .yanzheng *{ float:left; margin-top:20px}
+   .yanzheng input{width:80px; height:30px; border:solid 1px #bcbcbc; background-color:#f0f0f0}
+   .yanzheng .word3{ line-height:30px; margin-left:104px}
+   .yanzheng img{ margin-left:20px; margin-top:22px}
+   .button{ width:100px; height:30px; background-color:#1a9dd1; border-radius:2px; margin-top:50px; margin-left:105px
+   ; color:#FFF; line-height:30px; text-align:center; cursor:pointer; float:left}
+   .return-button-box .button2{ width:100px; height:30px; background-color:#1a9dd1; border-radius:2px; line-height:30px
+   ; text-align:center; color:#FFF; margin-left:20px; float:left; margin-bottom: 100px;margin-top: 50px;}
+   #ctl00_ContentPlaceHolder1_Label_Hide_Check{color: red;margin-top: 25px;margin-left: 20px;}

@@ -1,0 +1,35 @@
+ input{ margin:0; padding:0; border:none;}
+   ul,dl,dd{ margin:0}
+     ul{ padding:0; list-style:none}
+    body{ margin:0; background-color:#f0f0f0}
+	img{ display:block}
+	*{ font-size:14px; font-family:"微软雅黑"; color:#FFF}
+	a{ text-decoration:none;}
+	.top-nav-box,.last-nav-box,.content{ width:1150px; margin-left:auto; margin-right:auto}
+    .top-nav-bj{ background-color:#3b3a38; height:55px; min-width:1150px}
+	.top-nav .left *{ float:left;}
+	.top-nav .left img{ margin-top:19px; margin-right:60px}
+	.top-nav .left a{ line-height:55px; margin-right:60px}
+	.top-nav .left .one{ margin-top:13px}
+	.top-nav .right a{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+	.top-nav .right div{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+	.content-box{ width:1090px; margin-left:auto; margin-right:auto}
+	.content *{ color:#4c4c4c}
+	.content .title{ font-size:18px; margin-top:20px; color:#4c4c4c}
+	.content .line{ width:1150px; height:1px; background-color:#b2b2b2; margin-top:10px}
+	.content .q1 img{ float:left; margin-right:20px}
+	.content .q1 div{ float:left}
+	.content .q1{ margin-top:40px;}
+	.last-div{ clear:both}
+	.content .a{ margin-right:20px}
+	.content .a1{ margin-top:20px; }
+	.content .aa1{ float:left; }
+	.content img{ float:left}
+	.content .tou-28{ margin-top:-12px; margin-left:5px; margin-right:5px}
+	.content .xu-line{ width:1150px; height:1px; border-bottom:dashed 1px #bcbcbc; margin-top:30px; margin-left:-30px}
+	.content .q2{ margin-top:40px;}
+	.content .q2 img{ margin-right:20px}
+	.content .a2{ margin-top:20px;}
+	.content .a2 div{ margin-left:50px}
+	.content .button{ width:200px; height:40px; background-color:#1a9dd1; border-radius:4px; color:#FFF; text-align:center; line-height:40px
+	; margin-left:500px; margin-bottom:40px; margin-top:40px; cursor:pointer}

@@ -1,0 +1,42 @@
+input{ margin:0; padding:0; border:none;}
+ body{ margin:0; background-color:#f0f0f0}
+	img{ display:block}
+	*{ font-size:14px; font-family:"微软雅黑"; color:#FFF}
+	a{ text-decoration:none;}
+	.top-nav-box,.last-nav-box,.content{ width:1150px; margin-left:auto; margin-right:auto}
+    .top-nav-bj{ background-color:#3b3a38; height:55px; min-width:1150px}
+	.top-nav .left *{ float:left;}
+	.top-nav .left img{ margin-top:19px; margin-right:60px}
+	.top-nav .left a{ line-height:55px; margin-right:60px}
+	.top-nav .left .one{ margin-top:13px}
+	.top-nav .right a{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+	.top-nav .right div{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+	.content .tiltle{ font-size:24px; color:#4d4d4d; text-align:center; margin-top:20px; margin-bottom:20px}
+	.content *{ color:#4c4c4c}
+	.content .remark{ margin-top:20px; margin-bottom:20px}
+	.calculator .c1 *{ float:left; line-height:40px}
+	.calculator .c1 input{ border:1px solid #bdbdbd; width:120px; height:25px; margin-top:7px; margin-left:10px; margin-right:15px
+	; background-color:#f5f5f5; text-indent:5px; line-height:25px}
+	.calculator .c1{ width:250px; height:40px; border:solid 1px #bdbdbd; overflow:hidden; float:left; border-right:none}
+	.calculator .c1 .chang{ margin-left:10px}
+	.calculator .c2 *{ float:left; line-height:40px}
+	.calculator .c2{ width:140px; height:40px; border:solid 1px #bdbdbd; overflow:hidden; float:left;}
+	.calculator .c2 .button{ width:100px; height:25px; background-color:#1a9dd1; text-align:center; line-height:25px;margin-top:8px
+	; margin-left:10px; color:#FFF; cursor:pointer; border-radius:4px}
+	.content .waybill-table{ padding-top:20px; margin-bottom:10px}
+	.word{ color:#808080; font-size:12px;margin-top: 10px;}
+	.last-div{ clear:both}
+	
+   .content .table table{ border:#bfbfbf 1px solid; width:1146px; height:300px; margin-top:20px}
+   .content .table td{ border:none}
+   .content .table .t1{border-bottom: solid 1px #bfbfbf; text-align:center;  height:50px}
+   .content .table .t1 *{ float:left}
+   .content .table .t1 .word1{ margin-left:511px; font-size:18px; }
+   .content .table .t1 .word2{ margin-left:1030px; font-size:12px; color:#66666; margin-top:-10px}
+    .content .table .t1 .word2 .color{ color:#999999; margin-top:-2px}
+	.content .table .t2{border-bottom: solid 1px #bfbfbf; text-align:center;height:50px; border-right: solid 1px #bfbfbf; float:left; width:285px; line-height:50px;height:50px}
+	.content .table .t3{border-bottom: solid 1px #bfbfbf; text-align:center;height:50px; float:left; width:286px; line-height:50px;height:50px}
+    .content .table .t4{border-bottom: solid 1px #bfbfbf; text-align:center; border-right: solid 1px #bfbfbf; float:left; width:285px; line-height:50px; color:#808080;height:50px}
+	.content .table .t5{border-bottom: solid 1px #bfbfbf; text-align:center;float:left; width:286px; line-height:50px; color:#808080;height:50px}
+    .content .table .t6{text-align:center; border-right: solid 1px #bfbfbf; float:left; width:285px; line-height:50px; color:#808080;height:50px}
+	.content .table .t7{ text-align:center;float:left; width:286px; line-height:50px; color:#808080;height:50px}

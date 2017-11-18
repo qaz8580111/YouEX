@@ -1,0 +1,89 @@
+     ul,dl,dd{ margin:0}
+     ul{ padding:0; list-style:none}
+    body{ margin:0; background-color:#f0f0f0}
+	img{ display:block;border-style:none;}
+	*{ font-size:14px; font-family:"微软雅黑"; color:#FFF}
+	a{ text-decoration:none;}
+	.top-nav-box,.last-nav-box{ width:1150px; margin-left:auto; margin-right:auto}
+    .top-nav-bj{ background-color:#3b3a38; height:55px; min-width:1150px}
+	.top-nav .left *{ float:left;}
+	.top-nav .left img{ margin-top:19px; margin-right:60px}
+	.top-nav .left a{ line-height:55px; margin-right:60px}
+	.top-nav .left .one{ margin-top:13px}
+	.top-nav .right a{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+	.banner-bj{ position:relative; overflow:hidden; height:520px;min-width:1150px}
+	.banner-bj .banner{  margin-left:-1200px;min-width:1150px}
+	.banner-bj .icon{ margin-left:-260px; margin-top:70px}
+	.banner-bj *{position:absolute; left:50%}
+	.banner-bj .banner-word1{ font-size:60px; font-weight:bold; margin-left:-119px; margin-top:245px}
+	.banner-bj .banner-word2{ margin-left:-95px; margin-top:328px; letter-spacing:14px}
+	.banner-bj a{ margin-left:-205px; margin-top:376px;}
+	.banner-bj a img:hover{ box-shadow:none}
+	.banner-bj a img{ box-shadow:0 0 4px rgba(1,1,1,0.5); transition:0.5s}
+
+
+	.banner-bj .banner-word3{ margin-left:-49px; margin-top:436px}
+	.co-brand{ margin-top:20px; position:absolute; left:50%; margin-left:-579.5px}
+	.banner-word4{ font-size:36px; color:#1c9ed1; position:absolute; left:50%; 
+		margin-left:-155px; margin-top:105px;font-weight: bold;}
+	.content-box{ width:950px; margin-left:auto; margin-right:auto}
+	.content-icon1{ margin-top:210px; margin-left:60px; float:left}
+	.content-text{ float:left; margin-top:260px;margin-left:200px;}
+	.content-title1{ font-size:16px; color:#333333; font-weight:bold; margin-bottom:20px}
+	.content-text1{ font-size:14px; color:#666; margin-bottom:40px;}
+	.content-href{ font-size:16px; color:#6197a4}
+	.content-icon2{ float:right; margin-right:120px; margin-top:60px}
+	.content-text2{ float:left; margin-top:100px; margin-left:60px}
+	.content-title2{ font-size:16px; color:#333333; font-weight:bold; margin-bottom:20px}
+    .content-text3{ font-size:14px; color:#666666; margin-bottom:30px;line-height:25px}
+	.content-href2{ font-size:16px; color:#6197a4}
+	.content-icon3{ margin-top:82px; margin-left:100px; float:left}
+	.content-text4{ float:left; margin-top:120px; margin-left:250px}
+	.content-title3{ font-size:16px; color:#333333; font-weight:bold; margin-bottom:20px}
+    .content-text5{ font-size:14px; color:#666666; margin-bottom:30px;line-height: 25px;}
+	.content-href3{ font-size:16px; color:#6197a4}
+	.content-icon4{ float:right; margin-right:20px; margin-top:75px}
+	.content-text6{ float:left; margin-top:140px}
+	.content-title4{ font-size:16px; color:#333333; font-weight:bold; margin-bottom:20px}
+    .content-text7{ font-size:16px; color:#333333; margin-bottom:40px;}
+	.content-href4{ font-size:16px; color:#6197a4}
+	.content-icon5{ margin-top:90px; margin-left:-40px; float:left}
+	.content-text8{ float:right; margin-top:116px}
+	.content-title5{ font-size:16px; color:#333333; font-weight:bold; margin-bottom:20px}
+    .content-text9{ font-size:16px; color:#333333; margin-bottom:40px;}
+	.content-href5{ font-size:16px; color:#6197a4}
+	.lastdiv{ clear:both}
+	.button{ margin-top:155px; width:301px; margin-left:auto; margin-right:auto}
+	.last-nav-bj{ background-color:#3b3a39; height:55px; margin-top:30px;min-width:1150px}
+	.last-nav-bj *{ font-size:12px; font-family:"宋体";line-height:55px;}
+	.last-nav-bj .left{ float:left}
+	.last-nav-bj .right{ float:right;width: 600px;}
+	.last-nav-bj .right img{ float:right; margin-right:11px; margin-top:17px}
+	.last-nav-bj .weixin{ margin-left:-30px}
+	.qq-ship{ width:55px; height:55px; background-image:url(../../Images/Pic_Main/qq.png)}
+	.tool-ship{ width:55px; height:55px; background-image:url(../../Images/Pic_Main/gongju.png)}
+	.tool-ship dl{ width:180px; height:55px; background-color:#1a9cd0}
+	.tool-ship dd{ float:left; }
+	.tool-ship .yunfei{ margin-left:10px; margin-top:9px; font-size:12px}
+	.tool-ship .cima{ margin-left:10px; margin-top:9px; font-size:12px; color:#FFF}
+	.tool-ship .suilv{ margin-left:10px; margin-top:5px; font-size:12px; color:#FFF}
+	.tool-ship dd img{ margin-left:20px; margin-top:10px}
+	.help-ship{ width:55px; height:55px; background-image:url(../../Images/Pic_Main/help.png); cursor:pointer}
+	.weixin-ship{ width:55px; height:55px; background-image:url(../../Images/Pic_Main/weixin-celan.png)}
+	.side-bar{ position:fixed; bottom:300px; right:0}
+	#Label_LoginName{float: right;margin-top: 17px;margin-right: 5px;cursor:pointer;color:#1a9dd1;}
+	.user_loginout{font-size: 12px;font-family: "宋体";float: right;cursor: pointer;
+	background: #3B3A38;margin-top: 19px;border: none;color:white;}
+	.kefunocss{font-size: 12px;font-family: "宋体";line-height: 55px;float: right;}
+	.right{margin-right: -8px;}
+	.help_height{font-size: 12px;font-family: "宋体";line-height: 55px;float: right;}
+	.button img:hover{ box-shadow:none }
+	.button img{ transition:0.5s;box-shadow:0 0 4px rgba(1,1,1,0.5);}
+	.banner-bj .news-box{ margin-left:-580px; cursor:pointer}
+	.banner-bj .news-box .news1{ position:absolute;  color:#FFF;  z-index:10; width:200px; 
+		height:25px; background-color:rgba(255,255,255,0.3); 
+		border:solid 1px rgba(255,255,255,0.4); }
+	.banner-bj .news-box .news1 img{ margin-left:-90px; margin-top:5px}
+	.banner-bj .news-box .news1 span{ margin-left:-70px; margin-top:2px; margin-right:5px;
+	 width:160px; overflow:hidden; height:20px}
+	 .news1 a{margin-left:0px;margin-top:0px;}

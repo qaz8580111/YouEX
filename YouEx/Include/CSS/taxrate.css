@@ -1,0 +1,17 @@
+input{ margin:0; padding:0; border:none;}
+ body{ margin:0; background-color:#f0f0f0}
+	img{ display:block}
+	*{ font-size:14px; font-family:"微软雅黑"; color:#FFF}
+	a{ text-decoration:none;}
+	.top-nav-box,.last-nav-box,.content{ width:1150px; margin-left:auto; margin-right:auto}
+    .top-nav-bj{ background-color:#3b3a38; height:55px; min-width:1150px}
+	.top-nav .left *{ float:left;}
+	.top-nav .left img{ margin-top:19px; margin-right:60px}
+	.top-nav .left a{ line-height:55px; margin-right:60px}
+	.top-nav .left .one{ margin-top:13px}
+	.top-nav .right a{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+	.top-nav .right div{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+	.content2{ width:1080px; margin-left:auto; margin-right:auto}
+	.content .tiltle{ font-size:24px; color:#4d4d4d; text-align:center; margin-top:20px; margin-bottom:20px}
+    .content .word{color:#4d4d4d; margin-top:20px; margin-bottom:10px; font-weight:bold; font-weight:bold; margin-top:40px;}
+	.content .word2{color:#4d4d4d; margin-top:20px; margin-bottom:40px;}

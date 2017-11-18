@@ -1,0 +1,236 @@
+   p{ margin:0}
+   input{ margin:0; padding:0; border:none;}
+   ul,dl,dd{ margin:0}
+   ul{ padding:0; list-style:none}
+   body{ margin:0; background-color:#f0f0f0}
+   img{ display:block}
+   *{ font-size:14px; font-family:"微软雅黑"; color:#4c4c4c}
+   a{ text-decoration:none;}
+   .top-nav-bj *{ color:#FFF}
+   .top-nav-box,.last-nav-box,.top-user-information-box,.search-box,.warehouse-address-box
+   ,.waybill-box,.finance-box{ width:1150px; margin-left:auto; margin-right:auto}
+   .top-nav-bj{ background-color:#3b3a38; height:55px; min-width:1150px}
+   .top-nav .left *{ float:left;}
+   .top-nav .left img{ margin-top:19px; margin-right:60px}
+   .top-nav .left a{ line-height:55px; margin-right:60px}
+   .top-nav .left .one{ margin-top:13px}
+   .top-nav .right a{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+   .top-information-bj{ height:116px; background-color:#FFF; margin-top:20px; border-top:solid 1px #bcbcbc; border-bottom:solid 1px #bcbcbc}
+   .last-div{ clear:both}
+   .top-user-information-box dl *{ color:#808080}
+   .top-user-information-box dl{ float:left; margin-top:25px;margin-right: 100px; }
+   .top-user-information-box dd span{ color:#333333; font-size:24px;}
+   .top-user-information-box .l1 dd{ margin-left:79px; margin-top:-65px}
+   .top-user-information-box .l1 #ctl00_ContentPlaceHolder1_Image_level{ margin-left:79px; margin-top:10px}
+   .top-user-information-box .l1 { margin-top:25px; margin-right:50px;margin-left:68px;}
+   .top-user-information-box div{ margin-bottom:10px; text-align:center}
+   .top-user-information-box .last{ margin-right:0}
+   .top-user-information-box dl a{ text-align:center; color:#1a9dd1; font-size:12px; margin-left:14px; cursor:pointer}
+   .top-user-information-box dl .rmb{ margin-left:-70px; margin-bottom:-20px}
+   .top-user-information-box dl .danwei{ margin-right:-70px; margin-top:-24px; margin-bottom:5px}
+   .search-box *{ float:left}
+   .search-box input{ width:600px; height:40px; border:solid 1px #bcbcbc; border-radius:4px; margin-left:210px; margin-right:10px
+   ; font-size:18px; text-indent:10px}
+   .search{ margin-top:20px}
+   .warehouse-address-border{ border:solid 1px #e5e5e5; width:1150px; height:346px; border-radius:10px; margin-top:20px}
+   .warehouse-address-border .left{ float:left}
+   .warehouse-address-border .left .word{ color:#1a9dd1; font-size:18px; margin-top:20px; margin-left:83px}
+   .warehouse-address-border .left img{ margin-top:60px; margin-left:92px}
+   .warehouse-address-border .right .ht{ width:120px; height:2px; background-color:#1a9dd1; margin-top:10px; margin-left:6px; float:left
+   ; margin-right:47px}
+   .warehouse-address-border .right .content-border{ width:850px; height:255px; border:solid 1px #e5e5e5; border-radius:4px}
+   .warehouse-address-border .right{ float:right; margin-top:27px}
+   .warehouse-address-border .usercenter_address{ margin-left:20px}
+   .warehouse-address-border .frist-name a{ margin-left:100px; color:#1a9dd1;}
+   .warehouse-address-border li{ float:left; margin-right:60px; color:#808080}
+   .warehouse-address-border .frist-name{ margin-left:20px; margin-top:20px}
+   .warehouse-address-border .city{ margin-left:53px; margin-top:20px}
+   .warehouse-address-border .city a{ margin-left:62px; color:#1a9dd1;}
+   .warehouse-address-border .country{ margin-left:26px; margin-top:20px}
+   .warehouse-address-border .country a{ margin-left:44px; color:#1a9dd1;}
+   .warehouse-address-border .tel{ margin-left:60px; margin-top:20px}
+   .warehouse-address-border .tel a{ margin-left:52px; color:#1a9dd1;}
+   .warehouse-address-border .word-left{ float:left}
+   .warehouse-address-border .word-right{ float:left}
+   .warehouse-address-border .last-name{ margin-left:104px; margin-top:20px}
+   .warehouse-address-border .last-name a{ margin-left:55px; color:#1a9dd1}
+   .warehouse-address-border .state{ margin-left:122px; margin-top:20px}
+   .warehouse-address-border .state a{ margin-left:44px; color:#1a9dd1}
+   .warehouse-address-border .zip-code{ margin-left:102px; margin-top:20px}
+   .warehouse-address-border .zip-code a{ margin-left:54px; color:#1a9dd1}
+   .warehouse-address-border .address-line1{ margin-left:20px; margin-top:20px}
+   .warehouse-address-border .address-line1 a{ margin-left:36px; color:#1a9dd1}
+   .warehouse-address-border .address-line2{ margin-left:20px; margin-top:20px}
+   .warehouse-address-border .address-line2 a{ margin-left:136px; color:#1a9dd1}
+   .warehouse-address-border .help{ float:right; margin-top:-30px; margin-right:20px}
+   .warehouse-address-border .help *{ float:left; line-height:30px; font-size:12px; color:#1a9dd1}
+   .shi-address{ position:fixed; left:50%; margin-left:-350px; top:25%; display:none}
+   .shi-address .button{ position:absolute; bottom:30px; left:50%; margin-left:-40px; cursor:pointer}
+   .bj{ background-color:#000; width:100%; height:100%; top:0; left:0; position:fixed; opacity:0.5; display:none}
+   .warehouse-address-border .help img{ cursor:pointer}
+   .waybill-border{ border:solid 1px #e5e5e5; width:1150px; height:208px; border-radius:10px; margin-top:20px}
+   .waybill-border .left{ float:left}
+   .waybill-border .left .word{ color:#1a9dd1; font-size:18px; margin-top:20px; margin-left:105px}
+   .waybill-border .left img{ margin-top:40px; margin-left:88px}
+   .waybill-border .right .title{ color:#4c4c4c; font-size:18px; margin-top:26px; margin-bottom:20px}
+   .waybill-border .right a{ color:#1a9dd1; display:block; margin-bottom:10px}
+   .waybill-border .right{ margin-left:185px; float:left}
+   .finance-border{ border:solid 1px #e5e5e5; width:1150px; height:228px; border-radius:10px; margin-top:20px}
+   .finance-border .left{ float:left}
+   .finance-border .left .word{ color:#1a9dd1; font-size:18px; margin-top:20px; margin-left:105px}
+   .finance-border .left img{ margin-top:20px; margin-left:88px}
+   .finance-border .right .title{ color:#4c4c4c; font-size:18px; margin-top:26px; margin-bottom:20px}
+   .finance-border .right a{ color:#1a9dd1; display:block; margin-bottom:10px}
+   .finance-border .right{ margin-left:185px; float:left}
+   .last-nav-bj *{ font-size:12px; font-family:"宋体";line-height:55px; color:#FFF}
+   .last-nav-bj .left{ float:left}
+   .last-nav-bj .right{ float:right}
+   .last-nav-bj .right img{ float:right; margin-right:11px; margin-top:17px}
+   .last-nav-bj .weixin{ margin-left:-30px}
+   .pay{ width:1150px; height:600px; background-color:#FFF; border:3px solid #CCC; position:fixed; top:50%; margin-top:-300px; left:50%; margin-left:-575px; display:none
+   ; overflow-y:scroll;  }
+   .line{ width:1000px; height:1px; background-color:#b2b2b2; margin-left:20px; margin-top:10px}
+   .d2 .line{ margin-left:34px}
+   .pay .d1 .title *{ float:left}
+   .d1{ margin-left:30px; margin-top:40px;}
+   .pay p{ font-size:16px; font-weight:bold; color:#4c4c4c}
+   .pay .d1 .content{ margin-top:40px; margin-left:85px}
+   .pay .d1 .content .v1,.v2{ margin-bottom:10px}
+   .pay .d1 .content .v2{ margin-left:6px}
+   .pay .d1 input{ border:solid 1px #b2b2b2; width:100px}
+   .pay .d2 .title *{ float:left}
+   .d2{ margin-left:30px; margin-top:40px;}
+   .d2 .content .v1{ float:left; margin-right:80px}
+   .d2 .content .v1 *{ float:left; margin-right:10px}
+   .d2 .content input{ margin-top:4px}
+   .d2 .content{ margin-top:40px;margin-left:85px}
+   .pay .d3 .title *{ float:left}
+   .d3{ margin-left:30px; margin-top:40px;}
+   .d3 .p1,.p2,.p4{ margin-top:40px}
+   .d3 .p1 *{ float:left}
+   .d3 .p1 input{ margin-top:10px; margin-right:10px}
+   .d3 .content1{ margin-left:85px}
+   .d3 .content1 div{ float:left}
+   .d3 .p1{ margin-right:41px}
+   .d3 .p2 *{ float:left}
+   .d3 .p2 input{ margin-top:10px; margin-right:10px}
+   .d3 .p2{ margin-right:27px}
+   .d3 .p3 *{ float:left}
+   .d3 .p3 input{ margin-top:25px; margin-right:10px}
+   .d3 .p3{ margin-top:25px; margin-right:68px}
+   .d3 .p4 *{ float:left}
+   .d3 .p4 input{ margin-top:10px; margin-right:10px}
+   .d3 .content2{ margin-top:40px}
+   .d3 .content3 .p5 *{ float:left}
+   .d3 .content3 .p5 img{ margin-right:54px}
+   .d3 .content3 .p5{ margin-left:85px;}
+   .d3 .content3 .p5 input{ margin-top:8px; margin-right:10px}
+   .d3 .content3 .p6 *{ float:left}
+   .d3 .content3 .p6{ margin-left:85px}
+   .d3 .content3 .p6 input{ margin-top:8px; margin-right:10px}
+   .d3 .content3 .p6 img{ margin-right:51px}
+   .d3 .content3 .p7 *{ float:left}
+   .d3 .content3 .p7{ margin-left:85px}
+   .d3 .content3 .p7 input{ margin-top:8px; margin-right:10px}
+   .d3 .content3 .p7 img{ margin-right:44px}
+   .d3 .content3 .p8 *{ float:left}
+   .d3 .content3 .p8{ margin-left:85px}
+   .d3 .content3 .p8 input{ margin-top:8px; margin-right:10px}
+   .d3 .content3 .p8 img{ margin-right:53px}
+   .d3 .content3 .p10 img{ margin-right:70px}
+   .d3 .content3 .p11 img{ margin-right:75px}
+   .d3 .content3 .p12 img{ margin-right:60px}
+   .d3 .content3 .p13 img{ margin-right:74px}
+   .d3 .content3 .p15 img{ margin-right:54px}
+   .d3 .content3 .p16 img{ margin-right:47px}
+   .d3 .content3 .p17 img{ margin-right:51px}
+   .d3 .content3 .p18 img{ margin-right:60px}
+   .d3 .content3 .p20 img{ margin-right:84px}
+   .d3 .content3 .p21 img{ margin-right:46px}
+   .d3 .content3 .p22 img{ margin-right:46px}
+   .d3 .content3 .p23 img{ margin-right:74px}
+   .d3 .content3 .p25 img{ margin-right:30px}
+   .d3 .content3 .p26 img{ margin-right:24px}
+   .d3 .content3 .p27 img{ margin-right:50px}
+   .d3 .content3 .p9 *{ float:left}
+   .d3 .content3 .p9{ margin-left:85px}
+   .d3 .content3 .p9 input{ margin-top:8px; margin-right:10px}
+   .d3 .content3 .p10 *{ float:left; margin-top:26px}
+   .d3 .content3 .p10{ margin-left:85px}
+   .d3 .content3 .p10 input{ margin-top:34px; margin-right:10px;}
+   .d3 .content3 .p11 *{ float:left; margin-top:26px}
+   .d3 .content3 .p11{ margin-left:85px}
+   .d3 .content3 .p11 input{ margin-top:34px; margin-right:10px;}
+   .d3 .content3 .p12 *{ float:left; margin-top:26px}
+   .d3 .content3 .p12{ margin-left:85px}
+   .d3 .content3 .p12 input{ margin-top:34px; margin-right:10px;}
+   .d3 .content3 .p13 *{ float:left; margin-top:26px}
+   .d3 .content3 .p13{ margin-left:85px}
+   .d3 .content3 .p13 input{ margin-top:34px; margin-right:10px;}
+   .d3 .content3 .p14 *{ float:left; margin-top:26px}
+   .d3 .content3 .p14{ margin-left:85px}
+   .d3 .content3 .p14 input{ margin-top:34px; margin-right:10px;}
+   .d3 .content3 .p15 *{ float:left; margin-top:40px}
+   .d3 .content3 .p15{ margin-left:85px}
+   .d3 .content3 .p15 input{ margin-top:48px; margin-right:10px;}
+   .d3 .content3 .p16 *{ float:left; margin-top:40px}
+   .d3 .content3 .p16{ margin-left:85px}
+   .d3 .content3 .p16 input{ margin-top:48px; margin-right:10px;}
+   .d3 .content3 .p17 *{ float:left; margin-top:40px}
+   .d3 .content3 .p17{ margin-left:85px}
+   .d3 .content3 .p17 input{ margin-top:48px; margin-right:10px;}
+   .d3 .content3 .p18 *{ float:left; margin-top:40px}
+   .d3 .content3 .p18{ margin-left:85px}
+   .d3 .content3 .p18 input{ margin-top:48px; margin-right:10px;}
+   .d3 .content3 .p19 *{ float:left; margin-top:40px}
+   .d3 .content3 .p19{ margin-left:85px}
+   .d3 .content3 .p19 input{ margin-top:48px; margin-right:10px;}
+   .d3 .content3 .p20 *{ float:left; margin-top:40px}
+   .d3 .content3 .p20{ margin-left:85px}
+   .d3 .content3 .p20 input{ margin-top:48px; margin-right:10px;}
+    .d3 .content3 .p21 *{ float:left; margin-top:40px}
+   .d3 .content3 .p21{ margin-left:85px}
+   .d3 .content3 .p21 input{ margin-top:48px; margin-right:10px;}
+   .d3 .content3 .p22 *{ float:left; margin-top:40px}
+   .d3 .content3 .p22{ margin-left:85px}
+   .d3 .content3 .p22 input{ margin-top:48px; margin-right:10px;}
+   .d3 .content3 .p23 *{ float:left; margin-top:40px}
+   .d3 .content3 .p23{ margin-left:85px}
+   .d3 .content3 .p23 input{ margin-top:48px; margin-right:10px;}
+   .d3 .content3 .p24 *{ float:left; margin-top:40px}
+   .d3 .content3 .p24{ margin-left:85px}
+   .d3 .content3 .p24 input{ margin-top:48px; margin-right:10px;}
+   .d3 .content3 .p25 *{ float:left; margin-top:40px}
+   .d3 .content3 .p25{ margin-left:85px}
+   .d3 .content3 .p25 input{ margin-top:48px; margin-right:10px;}
+   .d3 .content3 .p26 *{ float:left; margin-top:40px}
+   .d3 .content3 .p26{ margin-left:85px}
+   .d3 .content3 .p26 input{ margin-top:48px; margin-right:10px;}
+   .d3 .content3 .p27 *{ float:left; margin-top:40px}
+   .d3 .content3 .p27{ margin-left:85px}
+   .d3 .content3 .p27 input{ margin-top:48px; margin-right:10px;}
+    .d3 .content3 .p28 *{ float:left; margin-top:40px}
+   .d3 .content3 .p28{ margin-left:85px}
+   .d3 .content3 .p28 input{ margin-top:48px; margin-right:10px;}
+   .d4 *{ float:left; margin-right:40px; cursor:pointer; margin-bottom:40px}
+   .d4{ margin-top:40px; margin-left:85px;}
+   .underuser_addpackage{background: url("../../Images/Pic_User/button.png");cursor: pointer;
+    width: 120px;height: 40px;}
+   .warehouse-address-border .right {margin-left: 180px;float: left;}
+   .warehouse-address-border .right .title {color: #4c4c4c;font-size: 18px;margin-top: 26px;margin-bottom: 20px;}
+   .warehouse-address-border .right a {color: #1a9dd1;display: block;margin-bottom: 10px;}
+   .top-banner{ position:relative; height:115px; overflow:hidden; min-width:1150px; margin-top:10px}
+   .top-banner img{ position:absolute; left:50%; margin-left:-1200px;}
+   #ctl00_ContentPlaceHolder1_Image_Avatar{width: 64px;height: 64px;
+   border-radius: 90px;}
+   .top-banner{ position:relative; height:115px; overflow:hidden; min-width:1150px; margin-top:10px}
+   .top-banner img{ position:absolute; left:50%; margin-left:-1200px;}
+   .top-banner .z{ background-image:url(../../Images/Pic_User/banner-zuo.png); width:11px; 
+      height:21px; position:absolute; left:50%; margin-left:-550px; margin-top:45px;cursor:pointer;}
+   .top-banner .y{ background-image:url(../../Images/Pic_User/banner-you.png); width:11px; 
+      height:21px; position:absolute; left:50%; margin-left:550px; margin-top:45px;cursor:pointer;}
+   .top-banner ul{ position:absolute; left:50%; margin-left:-43px; bottom:5px}
+   .top-banner li{ width:7px; height:7px; border-radius:50%; background-color:#FFF; float:left; margin-left:5px }
+   .top-banner .lanse{ background-color:#1a9dd1}
+   .img_link_delivery,.img_link_address,.img_link_money,.img_link_user{cursor: pointer;}
+   .last-nav-bj{margin-top:50px;}

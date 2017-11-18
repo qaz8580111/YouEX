@@ -1,0 +1,43 @@
+input{ margin:0; padding:0; border:none}
+  p{ margin:0}
+  ul,dl,dd{ margin:0}
+  ul{ padding:0; list-style:none}
+  body{ margin:0; background-color:#f0f0f0}
+  img{ display:block}
+  *{ font-size:14px; font-family:"微软雅黑"; color:#FFF}
+  a{ text-decoration:none;}
+  .top-nav-box,.forward,.word{ width:1150px; margin-left: 25%; margin-right:auto}
+  .top-nav-bj{ background-color:#3b3a38; height:55px; min-width:1150px}
+  .top-nav .left *{ float:left;}
+  .top-nav .left img{ margin-top:19px; margin-right:0px}
+  .top-nav .left a{ line-height:55px; margin-right:60px}
+  .top-nav .left .one{ margin-top:13px}
+  .top-nav .right a{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+  .title{ font-size:30px; color:#4c4c4c; width:120px; margin-left:auto; margin-right:auto; margin-top:140px}
+  .content img{ width:100px; margin-left:auto; margin-right:auto; margin-top:40px}
+  .forward dl { float:left}
+  .forward .line{ margin-top:10px; margin-left:-1px}
+  .forward .round{ margin-left:-1px}
+  .f1{ width:30px; height:30px; border-radius:15px; background-color:#999999}
+  .line{ width:130px; height:10px;background-color:#999999}
+  .round{ width:30px; height:30px; border-radius:15px; background-color:#999999}
+  .forward{ margin-top:120px;margin-left: auto;margin-right: auto;padding-left: 165px;}
+  .last-div{ clear:both}
+  .word{ margin-top:20px;margin-left: auto;margin-right: auto;padding-left: 165px;}
+  .word *{ color:#4c4c4c}
+  .word dl{ float:left;}
+  .word dl .time{ margin-left:-10px; margin-top:10px}
+  .w2{ margin-left:90px}
+  .w3{ margin-left:105px}
+  .w3 .time{ padding-left:5px}
+  .w4{ margin-left:105px}
+  .w5{ margin-left:103px}
+  .w5 .time{ padding-left:6px}
+  .w6{ margin-left:102px}
+  .w7{ margin-left:90px}
+  .w7 .time{ padding-left:12px}
+  .w8{ margin-left:111px; }
+  .w1,.w2 *,.w3 *{ color:#4c4c4c}
+  .return-button-box{ width:100px; height:30px; border-radius:2px; background-color:#1a9dd1; 
+    line-height:30px; text-align:center; margin-left: auto; margin-right: auto; 
+    margin-top:80px;margin-bottom: 80px;cursor:pointer; }

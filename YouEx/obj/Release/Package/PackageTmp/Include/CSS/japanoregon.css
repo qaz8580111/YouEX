@@ -1,0 +1,67 @@
+p{ margin:0}
+   input{ margin:0; padding:0; border:none;}
+   ul,dl,dd{ margin:0}
+   ul{ padding:0; list-style:none}
+   body{ margin:0; background-color:#f0f0f0; overflow-y:scroll}
+   img{ display:block}
+   *{ font-size:14px; font-family:"微软雅黑"; color:#4c4c4c}
+   a{ text-decoration:none;}
+   .top-nav-bj *{ color:#FFF}
+   .top-nav-box,.last-nav-box,.top-title,.main-nav,.button-box,.content{ width:1150px; margin-left:auto; margin-right:auto}
+   .top-nav-bj{ background-color:#3b3a38; height:55px; min-width:1150px}
+   .top-nav .left *{ float:left;}
+   .top-nav .left img{ margin-top:19px; margin-right:60px}
+   .top-nav .left a{ line-height:55px; margin-right:60px}
+   .top-nav .left .one{ margin-top:13px}
+   .top-nav .right a{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+   .top-nav .right div{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+   .top-information-bj{ height:116px; background-color:#FFF; margin-top:20px; border-top:solid 1px #bcbcbc; border-bottom:solid 1px #bcbcbc}
+   .last-div{ clear:both}
+   .top-title{ font-weight:bold; margin-top:40px; margin-bottom:40px}
+   .top-title *{font-size:16px;}
+   .top-title div{ font-size:16px}
+   .main-nav .word dl{ float:left; margin-left:50px; color:#808080} 
+   .main-nav .word .a1{ color:#4c4c4c;font-size:14px;}
+   .main-nav .line1{ width:74px; height:2px; background-color:#1a9dd1; margin-left:270px; margin-top:10px}
+   .main-nav .line2{ width:1150px; height:1px; background-color:#bcbcbc; margin-bottom:20px}
+   .content .content-nav .box1{ width:80px; height:30px; border:solid 1px #bcbcbc; color:#808080; line-height:30px; text-align:center
+   ; border-radius:4px; border-bottom-left-radius:4px; float:left; margin-left:40px; cursor:pointer; background-color:#e6e6e6}
+   .sub-content .kuang{  margin-top:20px}
+   
+      .warehouse-address-border .right .ht{ width:120px; height:2px; background-color:#1a9dd1; margin-top:10px; margin-left:6px; float:left
+   ; margin-right:47px}
+   .warehouse-address-border .right{ float:right; margin-right:20px; margin-top:27px}
+   .warehouse-address-border .address{ margin-left:20px}
+   .warehouse-address-border .frist-name a{ margin-left:100px; color:#1a9dd1;}
+   .warehouse-address-border li{ float:left; margin-right:60px; color:#808080}
+   .warehouse-address-border .frist-name{ margin-left:20px; margin-top:15px}
+   .warehouse-address-border .city{ margin-left:20px; margin-top:15px}
+   .warehouse-address-border .country{ margin-left:20px; margin-top:15px}
+   .warehouse-address-border .tel{ margin-left:20px; margin-top:15px}
+   .warehouse-address-border .word-left{ float:left}
+   .warehouse-address-border .word-right{ float:left}
+   .warehouse-address-border .last-name{ margin-left:254px; margin-top:15px}
+   .warehouse-address-border .state{ margin-left:254px; margin-top:15px}
+   .warehouse-address-border .zip-code{ margin-left:254px; margin-top:15px}
+   .warehouse-address-border .address-line1{ margin-left:20px; margin-top:30px}
+   .warehouse-address-border .address-line1 a{ margin-left:83px; color:#1a9dd1}
+   .warehouse-address-border .address-line2{ margin-left:20px; margin-top:15px}
+   .warehouse-address-border .address-line2 a{ margin-left:40px; color:#1a9dd1}
+   .warehouse-address-border .help{ float:right; margin-top:-30px; margin-right:20px}
+   .warehouse-address-border .help *{ float:left; line-height:30px; font-size:12px; color:#1a9dd1}
+   .shi-address{ position:fixed; left:50%; margin-left:-350px; top:50%; display:none; margin-top:-350px}
+   .shi-address .button{ position:absolute;  left:50%; margin-left:-40px; cursor:pointer; bottom:40px;width:80px;}
+   .warehouse-address-border .help img{ cursor:pointer}
+   .warehouse-address-border{ width:900px;   margin-top:20px; margin-left:auto; margin-right:auto; }
+   .warehouse-address-border .left{ float:left}
+   .warehouse-address-border .left .word{ color:#1a9dd1; font-size:18px; margin-top:20px; margin-left:83px}
+   .warehouse-address-border .left img{ margin-top:60px; margin-left:92px}
+   .bj{ background-color:#000; width:100%; height:100%; top:0; left:0; position:fixed; opacity:0.5; display:none}
+   .here .word1{ margin-left:50px; margin-top:40px; float:left}
+   .here .line3{ width:1150px; height:1px; background-color:#bcbcbc; margin-top:10px}
+   .here .time{ float:right; margin-right:20px;margin-top:40px; font-size:12px; color:#808080}
+   .here .map{ width:967px; margin-left:auto; margin-right:auto; margin-top:20px; margin-bottom:40px}
+   .button2{ width:80px; height:30px; border-radius:2px; background-color:#1a9dd1; text-align:center; line-height:30px; color:#FFF
+   ; float:right; margin-right:90px; margin-bottom:40px; cursor:pointer}
+   .copy_line_one,.copy_line_two{color:#1A9DD1;margin-left: 50px;cursor: pointer;}
+   .copy_line_two{margin-left: 25px;}

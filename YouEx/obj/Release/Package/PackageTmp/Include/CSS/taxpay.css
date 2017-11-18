@@ -1,0 +1,11 @@
+.pay{left:30%;position:absolute;margin-top: 50px;width:1000px;height:600px;}
+.d1{margin-bottom: 20px;}
+.v1 strong{color:black;font-size:16px;}
+#ctl00_ContentPlaceHolder1_TB_Recharge{width:250px;color: black;background-color: #DDD;}
+.alipay_tip p{color:black;}
+.paypal_tip p{color:black;}
+.paypal_tip{display:none;}
+.alipay_tip,.paypal_tip{margin-left: 80px;height:200px;}
+.alipay_img{float:left;}
+#ctl00_ContentPlaceHolder1_Button_Recharge{margin-left:80px;width:115px;height:40px;
+	background-color:#1a9dd1;color:white;border-radius:2px;font-size:16px;}

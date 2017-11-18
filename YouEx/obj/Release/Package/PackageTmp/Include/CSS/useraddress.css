@@ -1,0 +1,101 @@
+p{ margin:0}
+   input{ margin:0; padding:0; border:none;text-indent: 5px;}
+   ul,dl,dd{ margin:0}
+   ul{ padding:0; list-style:none}
+   body{ margin:0; background-color:#f0f0f0; overflow-y:scroll}
+   img{ display:block}
+   *{ font-size:14px; font-family:"微软雅黑"; color:#4c4c4c}
+   a{ text-decoration:none;}
+   .top-nav-bj *{ color:#FFF}
+   .top-nav-box,.last-nav-box,.top-title,.main-nav,.return-button-box,.content{ width:1150px; margin-left:auto; margin-right:auto}
+   .top-nav-bj{ background-color:#3b3a38; height:55px; min-width:1150px}
+   .top-nav .left *{ float:left;}
+   .top-nav .left img{ margin-top:19px; margin-right:60px}
+   .top-nav .left a{ line-height:55px; margin-right:60px}
+   .top-nav .left .one{ margin-top:13px}
+   .top-nav .right a{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+   .top-information-bj{ height:116px; background-color:#FFF; margin-top:20px; border-top:solid 1px #bcbcbc; border-bottom:solid 1px #bcbcbc}
+   .last-div{ clear:both}
+   .top-title{ font-size:16px; font-weight:bold; margin-top:40px; margin-bottom:40px}
+   .main-nav .word dl{ float:left; margin-left:50px; color:#808080} 
+   .main-nav .word .a3{ color:#4c4c4c}
+   .main-nav .line1{ width:74px; height:2px; background-color:#1a9dd1; margin-left:247px; margin-top:10px}
+   .main-nav .line2{ width:1150px; height:1px; background-color:#808080; margin-bottom:40px}
+   .content .table table{ border:#bfbfbf 1px solid; width:1150px; height:auto;}
+   .content .table tr{height: 50px;}
+   .content .table .t1{ width:40px; background-color:#e6e6e6; border-right: solid 1px #bfbfbf;}
+   .content .table .t2{ width:100px; background-color:#e6e6e6; border-right: solid 1px #bfbfbf; text-align:center; line-height:20px}
+   .content .table .t3{ width:100px; background-color:#e6e6e6; border-right: solid 1px #bfbfbf; text-align:center; line-height:20px}
+   .content .table .t4{ width:345px; background-color:#e6e6e6; border-right: solid 1px #bfbfbf; text-align:center; line-height:20px}
+   .content .table .t5{ width:130px; background-color:#e6e6e6; border-right: solid 1px #bfbfbf; text-align:center; line-height:20px}
+   .content .table .t6{ width:77px; background-color:#e6e6e6; border-right: solid 1px #bfbfbf; text-align:center; line-height:20px}
+   .content .table .t7{ width:180px; background-color:#e6e6e6; border-right: solid 1px #bfbfbf; text-align:center; line-height:20px}
+   .content .table .t8{background-color:#e6e6e6; border-right: solid 1px #bfbfbf; text-align:center; line-height:20px}
+   .content .table .t9{ width:80px; background-color:#e6e6e6; text-align:center; line-height:20px}
+   
+   .content .table .tt1{ width:40px;  border-right: solid 1px #bfbfbf;border-top: solid 1px #bfbfbf;}
+   .content .table .tt2{ width:100px; border-right: solid 1px #bfbfbf; text-align:center; line-height:20px;border-top: solid 1px #bfbfbf;}
+   .content .table .tt3{ width:100px; border-right: solid 1px #bfbfbf; text-align:center; line-height:20px;border-top: solid 1px #bfbfbf;}
+   .content .table .tt4{ width:345px; border-right: solid 1px #bfbfbf; text-align:center; line-height:20px;border-top: solid 1px #bfbfbf;}
+   .content .table .tt5{ width:130px; border-right: solid 1px #bfbfbf; text-align:center; line-height:20px;border-top: solid 1px #bfbfbf;}
+   .content .table .tt6{ width:77px;border-right: solid 1px #bfbfbf; text-align:center; line-height:20px;border-top: solid 1px #bfbfbf;}
+   .content .table .tt7{ width:180px;  border-right: solid 1px #bfbfbf; text-align:center; line-height:20px;border-top: solid 1px #bfbfbf;}
+   .content .table .tt8{ border-right: solid 1px #bfbfbf; text-align:center; line-height:20px;border-top: solid 1px #bfbfbf;}
+   .deluseradd{ width:80px;  text-align:center; line-height:20px;border-top: solid 1px #bfbfbf;cursor: pointer;}
+   .content .table .tt1 input{ margin-left:14px;border-top: solid 1px #bfbfbf;}
+   
+   .button4{ width:150px; height:40px; border-radius:4px;  background-color:#bfbfbf; color:#4c4c4c; text-align:center; line-height:40px; float:left
+   ; margin-top:30px; margin-left:345px; cursor:pointer}
+   .button5{ width:150px; height:40px; border-radius:4px; background-color:#bfbfbf; color:#4c4c4c; text-align:center; line-height:40px; float:left
+   ; margin-left:20px; margin-top:30px;cursor:pointer}
+   .line3{ margin-top:20px; margin-bottom:20px;margin-left: 270px;}
+   .content .c1 *{ float:left}
+   .content .c1 .word{ margin-left:345px; line-height:30px; margin-right:5px}
+   .content .c1 input{ width:400px; height:30px; border:solid 1px #bcbcbc;background-color:#f0f0f0; 
+   ; border-radius:2px}
+   .content .c2 *{ float:left; margin-top:20px}
+   .content .c2 .word{ margin-left:359px; line-height:30px; margin-right:5px}
+   .content .c2 input{ width:90px; height:30px; border:solid 1px #bcbcbc;background-color:#f0f0f0; ; border-radius:2px}
+   .content .c3 *{ float:left; margin-top:20px}
+   .content .c3 .word{ margin-left:332px; line-height:30px; margin-right:5px}
+   .content .c3 input{ width:150px; height:30px; border:solid 1px #bcbcbc;background-color:#f0f0f0; ; border-radius:2px}
+   .content .c4 { float:left; margin-top:20px}
+   .content .c4 .word{ margin-left:345px; line-height:30px; margin-right:5px}
+   .content .c4 select{ width:120px; height:30px; border:solid 1px #bcbcbc;background-color:#f0f0f0 ;
+    border-radius:2px; margin-right:10px;margin-top: -28px;}
+   .content .c4 *{ float:left;}
+   .content .c5 *{ float:left; margin-top:20px}
+   .content .c5 .word{ margin-left:345px; line-height:30px; margin-right:5px}
+   .content .c5 input{ width:400px; height:30px; border:solid 1px #bcbcbc;background-color:#f0f0f0; ; border-radius:2px;
+   ; border-radius:2px}
+   .content .c5 select{ width:150px; height:30px; border:solid 1px #bcbcbc;background-color:#f0f0f0 ;
+    border-radius:2px; margin-right:10px;}
+    .content .c5 select option{margin-top:0px;}
+   .content .c6 *{ float:left; margin-top:20px}
+   .content .c6 .word{ margin-left:373px; line-height:30px; margin-right:5px}
+   .content .c6 input{ width:150px; height:30px; border:solid 1px #bcbcbc;background-color:#f0f0f0; ; border-radius:2px}
+   .content .c7 *{ float:left; margin-top:20px}
+   .content .c7 .word{ margin-left:345px; line-height:30px; margin-right:5px}
+   .content .c7 textarea{ width:300px; height:80px; border:solid 1px #bcbcbc;background-color:#f0f0f0;border-radius:2px}
+   .content .c8 *{ float:left; margin-top:20px}
+   .content .c8 .word{ margin-left:303px; line-height:30px; margin-right:5px}
+   .content .c8 input{ width:300px; height:30px; border:solid 1px #bcbcbc;background-color:#f0f0f0;border-radius:2px}
+   .content .c9 *{ float:left; margin-top:20px}
+   .content .c9 .word{ margin-left:332px; line-height:30px; margin-right:5px}
+   .content .c9 .word1{ line-height:30px; margin-left:20px}
+   .content .c9 img{ cursor:pointer}
+   
+   #ctl00_ContentPlaceHolder1_Button_AddUserAddress{ width:100px; height:30px; background-color:#1a9dd1; border-radius:2px; line-height:30px
+   ; text-align:center; color:#FFF; margin-left:365px; float:left; margin-top:40px; }
+   #ctl00_ContentPlaceHolder1_Button_EditUserAddress{ width:100px; height:30px; background-color:#1a9dd1; border-radius:2px; line-height:30px
+   ; text-align:center; color:#FFF; margin-left:365px; float:left; margin-top:40px; margin-bottom:100px;display: none;}
+   .return-button-box .button2{ width:100px; height:30px; background-color:#1a9dd1; border-radius:2px; line-height:30px
+   ; text-align:center; color:#FFF; margin-left:20px; float:left; margin-top:40px;}
+   .change{background-color:#1a9dd1; color:#FFF}
+   #ctl00_ContentPlaceHolder1_IdCardFront{width: 200px;height: 120px;}
+   #ctl00_ContentPlaceHolder1_IdCardBack{width: 200px;height: 120px;}
+   #ctl00_ContentPlaceHolder1_uploadPicFront{width: 150px;color: #f0f0f0;}
+   #ctl00_ContentPlaceHolder1_uploadPicBack{width: 150px;color: #f0f0f0;}
+   .showtable{display: none;}
+   #ctl00_ContentPlaceHolder1_Label_IsFirst{display: none;}
+   .diffrent_addressname_notice{color:red;margin-left:10px;display:none;}

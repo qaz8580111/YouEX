@@ -1,0 +1,57 @@
+p{ margin:0}
+   input{ margin:0; padding:0; border:none;}
+   ul,dl,dd{ margin:0}
+   ul{ padding:0; list-style:none}
+   body{ margin:0; background-color:#f0f0f0; overflow-y:scroll}
+   img{ display:block}
+   *{ font-size:14px; font-family:"微软雅黑"; color:#4c4c4c}
+   a{ text-decoration:none;}
+   .top-nav-bj *{ color:#FFF}
+   .top-nav-box,.last-nav-box,.top-title,.main-nav,.return-button-box{ width:1150px; margin-left:auto; margin-right:auto}
+   .top-nav-bj{ background-color:#3b3a38; height:55px; min-width:1150px}
+   .top-nav .left *{ float:left;}
+   .top-nav .left img{ margin-top:19px; margin-right:60px}
+   .top-nav .left a{ line-height:55px; margin-right:60px}
+   .top-nav .left .one{ margin-top:13px}
+   .top-nav .right a{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+   .top-information-bj{ height:116px; background-color:#FFF; margin-top:20px; border-top:solid 1px #bcbcbc; border-bottom:solid 1px #bcbcbc}
+   .last-div{ clear:both}
+   .top-title{ font-size:16px; font-weight:bold; margin-top:40px; margin-bottom:40px}
+   .main-nav .word dl{ float:left; margin-left:50px; color:#808080} 
+   .main-nav .word .a1{ color:#4c4c4c}
+   .main-nav .line1{ width:74px; height:2px; background-color:#1a9dd1; margin-left:42px; margin-top:10px}
+   .main-nav .line2{ width:1150px; height:1px; background-color:#808080; margin-bottom:40px}
+   .return-button-box .button2{ width:100px; height:30px; background-color:#1a9dd1; border-radius:2px; line-height:30px
+   ; text-align:center; color:#FFF; margin-left:1010px;cursor: pointer;margin-bottom: 100px;margin-top: 50px;}
+   .button_3{width: 100px;margin-top: 100px;}
+   .bill_createtime{font-size: large;padding-bottom: 20px;padding-right: 150px;}
+   .bill_paytime{font-size: large;padding-bottom: 20px;padding-right: 150px;}
+   .bill_paymode{font-size: large;padding-bottom: 20px;padding-right: 60px;}
+   .bill_totalcost{font-size: large;padding-bottom: 20px;padding-right:60px;}
+   .bill_paycash{font-size: large;padding-bottom: 20px;padding-right:60px;}
+   .bill_payfly{font-size: large;padding-bottom: 20px;padding-right:60px;}
+   .bill_remark{font-size: large;padding-bottom: 20px;padding-right:60px;}
+   .sub-content .kuang{ width:1070px; margin-left:auto; margin-right:auto; height:auto;}
+   .sub-content .kuang .k1 *{ float:left; line-height:40px;}
+   .sub-content .kuang .w1{ margin-left: 30px;width:100px;}
+   .sub-content .kuang .w2{ margin-left: 30px;width:60px;}
+   .sub-content .kuang .w3{ margin-left: 20px;width: 60px;}
+   .sub-content .kuang .w4{ width:100px;padding-left: 30px;}
+   .sub-content .kuang .w5{ margin-left: 30px;width:80px;height: 40px;}
+   .sub-content .kuang .w6{ margin-left: 30px;padding-left:50px;width:120px;}
+   .sub-content .kuang .w7{ margin-left: 30px;width: 60px;}
+   .sub-content .kuang .w8{ margin-left: 30px;width:220px;}
+   .sub-content .kuang .k1{ background-color:#e6e6e6; height:40px}
+   .sub-content .kuang .k2 *{float:left; line-height:40px}
+
+   .page_action{float:right;margin-right: 0px;margin-top: 30px;}
+   #ctl00_ContentPlaceHolder1_TextBox_Page{width: 30px;}
+   .hidestritemfinal{display:none;}
+   .page_action input{margin-right: 10px;}
+   #ctl00_ContentPlaceHolder1_TextBox_Page{border:1px solid grey;text-align: center;}
+   #ctl00_ContentPlaceHolder1_Button_Redirect{background-color:#1a9dd1;width:50px;color: white;
+      border-radius: 2px;}
+   #ctl00_ContentPlaceHolder1_Button_FirstPage,
+   #ctl00_ContentPlaceHolder1_Button_PrevPage,
+   #ctl00_ContentPlaceHolder1_Button_NextPage,
+   #ctl00_ContentPlaceHolder1_Button_LastPage{background-color: unset;}

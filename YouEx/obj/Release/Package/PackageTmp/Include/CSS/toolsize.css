@@ -1,0 +1,25 @@
+input{ margin:0; padding:0; border:none;}
+ body{ margin:0; background-color:#f0f0f0}
+	img{ display:block}
+	*{ font-size:14px; font-family:"微软雅黑"; color:#FFF}
+	a{ text-decoration:none;}
+	.top-nav-box,.last-nav-box,.content{ width:1150px; margin-left:auto; margin-right:auto}
+    .top-nav-bj{ background-color:#3b3a38; height:55px; min-width:1150px}
+	.top-nav .left *{ float:left;}
+	.top-nav .left img{ margin-top:19px; margin-right:60px}
+	.top-nav .left a{ line-height:55px; margin-right:60px}
+	.top-nav .left .one{ margin-top:13px}
+	.top-nav .right a{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+	.top-nav .right div{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+	.content .tiltle{ font-size:24px; color:#4d4d4d; text-align:center; margin-top:20px; margin-bottom:20px}
+	.content .c1 .word{ color:#4c4c4c;  margin-left:550px; margin-top:10px; font-size:16px; font-weight:bold}
+    .content .c1 img{margin-left:228px}
+	.content .c1{ margin-top:20px}
+	.last-div{ clear:both}
+	.content .c2{ margin-left:230px}
+	.content .c3{ color:#1a9cce; margin-left:230px; margin-top:10px; margin-bottom:20px}
+	.content .c4 .word{ color:#4c4c4c;  margin-left:230px; margin-top:10px; font-size:16px; font-weight:bold}
+    .content .c4 img{margin-left:300px}
+	.content .c4{ margin-top:20px}
+	.content .c5{ color:#4c4c4c; margin-left:230px; margin-top:10px; margin-bottom:40px}
+	.content .c6{ margin-left:360px; margin-top:20px}

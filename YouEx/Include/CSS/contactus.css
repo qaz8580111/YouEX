@@ -1,0 +1,41 @@
+ul,dl,dd{ margin:0}
+     ul{ padding:0; list-style:none}
+    body{ margin:0; background-color:#f0f0f0}
+	img{ display:block}
+	*{ font-size:14px; font-family:"微软雅黑"; color:#FFF}
+	a{ text-decoration:none;}
+	.top-nav-box,.last-nav-box,.content{ width:1150px; margin-left:auto; margin-right:auto}
+    .top-nav-bj{ background-color:#3b3a38; height:55px; min-width:1150px}
+	.top-nav .left *{ float:left;}
+	.top-nav .left img{ margin-top:19px; margin-right:60px}
+	.top-nav .left a{ line-height:55px; margin-right:60px}
+	.top-nav .left .one{ margin-top:13px}
+	.top-nav .right a{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+	.top-nav .right div{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+	.last-div{ clear:both}
+	.content{ background-color:#FFF; margin-top:40px; overflow:hidden}
+	.content .k1 *{ float:left}
+	.content .k1{ cursor:pointer}
+	.content .shu{ width:4px; height:50px; background-color:#1a9dd1;}
+	.content .word{ margin-left:46px; color:#1a9dd1; line-height:50px;}
+	.content .san{ margin-top:19px; margin-left:140px}
+	.content .heng{ width:260px; height:1px; background-color:#e5e5e5}
+	.content .word1{ margin-left:50px; color:#4d4d4d; line-height:50px;}
+	.content .left{ float:left}
+	.content .right{ float:left;margin-left:45px;}
+	.content .right .title{ font-size:30px; color:#4c4c4c;  margin-top:15px}
+	.content .right img{ margin-top:40px; margin-bottom:60px}
+    .content .title1{ color:#4c4c4c; font-weight:bold; margin-top:50px}
+	.content .right .c1{ margin-top:20px; }
+	.content .right .c1 img{ float:left; margin-top:0}
+	.content .right .c1 span{ color:#4c4c4c; float:left; margin-left:10px; margin-top:8px}
+	.content .right .c2 img{ float:left; margin-top:-40px}
+	.content .right .c2 span{ color:#4c4c4c; float:left; margin-left:10px; margin-top:-32px}
+	.content .right .c3 img{ float:left; margin-top:-40px; margin-left:250px}
+	.content .right .c3 span{ color:#4c4c4c; float:left; margin-left:10px; margin-top:-32px}
+	.content .right .c4 img{  margin-top:-40px; float:left}
+	.content .right .c4 span{ color:#4c4c4c; margin-left:10px; margin-top:-32px; float:left;}
+	.content .right .map{ margin-top:0px}
+	.content .right .weixin{ margin-top:10px}
+	.content .right .saomiao{ color:#808080; margin-top:-60px; margin-left:10px; margin-bottom:300px}
+	.last-nav-bj{position:fixed;}

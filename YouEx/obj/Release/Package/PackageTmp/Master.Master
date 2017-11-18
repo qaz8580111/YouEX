@@ -1,0 +1,183 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.Master.cs" Inherits="WebSite.WebSite.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" href="./Include/CSS/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="./Include/CSS/master.css"/>
+    <link type="text/css" rel="stylesheet" href="./Include/CSS/datetimepicker.css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script type="text/javascript" src="../Include/JS/jquery.min.js"></script>    
+    <script type="text/javascript" src="../Include/JS/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../Include/JS/jquery-ui-git.js"></script>
+    <script type="text/javascript" src="../Include/JS/fedroad.js"></script>    
+    <script type="text/javascript" src="../Include/JS/jquery.cookie.js"></script>
+    <script type="text/javascript" src="../Include/JS/ajaxfileupload.js"></script>
+    <script type="text/javascript" src="../Include/JS/jquery.zclip.js"></script>
+    <script type="text/javascript" src="../Include/JS/datetimepicker.js"></script>
+    
+    <title></title>
+</head>
+<body>
+    <form id="form" runat="server" enctype="multipart/form-data" >
+    <div>
+        <div id="master_content">
+    <div class="top-nav-bj">
+
+     <div class="top-nav-box">
+       <div class="top-nav">
+          <div class="left">
+           <a href="../Default.aspx"> <img src="../Images/Pic_Main/logo.jpg" /></a> 
+            <a href="../Help/Price.aspx">资费与支付</a>
+            <a href="../Default.aspx">API</a>
+            <a href="../Package/Search.aspx"><img class="one" src="../Images/Pic_Main/top-anniu.jpg" /></a> 
+          </div>
+          <div class="right" >
+            <a href="../Help/Help.aspx">帮助中心</a><span class="help_height">&nbsp;|&nbsp;</span>
+            <a href="../UserCenter/UserLogin.aspx">登录</a><a href="../UserCenter/UserRegister.aspx">注册&nbsp;&nbsp;</a><span class="kefunocss">客服服务热线：4007-280-360&nbsp;|&nbsp;</span>
+              <a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4007280360&aty=0&a=0&curl=&ty=1" target="_blank">在线客服&nbsp;|&nbsp;</a>
+          </div>
+          <div class="right">
+            <a href="../Help/Help.aspx">帮助中心</a><span class="help_height">&nbsp;|&nbsp;</span>
+            <input class="user_loginout" type="button" value="退出" runat="server" onclick="if (!isloginout()) { return false; };" onserverclick="UserLoginOut" />
+                  <asp:Label ID="Label_LoginName" runat="server" Text=""></asp:Label>&nbsp;&nbsp;<span class="kefunocss">客服服务热线：4007-280-360&nbsp;|&nbsp;</span>
+              <a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4007280360&aty=0&a=0&curl=&ty=1" target="_blank">在线客服&nbsp;|&nbsp;</a>
+          </div>
+           <asp:Label ID="Label_Show_LoginOut" runat="server" Text=""></asp:Label>
+           <script>
+               $("#ctl00_Label_Show_LoginOut").hide();
+               if ($("#ctl00_Label_Show_LoginOut").text() == "user") {
+                   $(".right").eq(0).hide();
+               } else {
+                   $(".right").eq(1).hide();
+               }
+               function isloginout() {
+                   if (confirm("是否确定退出帐户？") == true) {
+                       return true;
+                   } else
+                       return false;
+               }
+           </script>
+       </div> 
+     </div>
+  </div>        
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+    <div class="last-nav-bj">
+     <div class="last-nav-box">
+        <a class="left" href="http://www.miitbeian.gov.cn">浙ICP备16005428号</a>
+        <div class="right">
+          <a href="../Help/JoinUs.aspx">加盟</a>&nbsp;&nbsp;
+          <a href="..">历程</a>&nbsp;&nbsp;
+          <a href="../Help/AboutUs.aspx">关于我们</a>&nbsp;&nbsp;
+          <a href="../Help/Distribution.aspx">网点分布</a>&nbsp;&nbsp;
+          <a href="../Help/Cooperation.aspx">我的合作伙伴</a>&nbsp;&nbsp;
+          <a href="../Help/ContactUs.aspx">联系我们</a>&nbsp;&nbsp;
+          <a href=".."><img src="../Images/Pic_Main/in.png" /></a>&nbsp;&nbsp;
+          <a href=".."><img src="../Images/Pic_Main/weibo.png" /></a>&nbsp;&nbsp;
+          <a href="..";class="weixin"><img src="../Images/Pic_Main/weixin.png" /></a>            
+        </div>
+     </div>
+  </div>
+    </div>
+
+
+    <ul class="side-bar">
+    <li class="qq-ship">
+       <dl>
+          <dd><script charset="utf-8" type="text/javascript" src="http://wpa.b.qq.com/cgi/wpa.php?key=XzkzODAwMTg4N18xMjU5MDdfNDAwNzI4MDM2MF8"></script></dd>
+          <dd><script charset="utf-8" type="text/javascript" src="http://wpa.b.qq.com/cgi/wpa.php?key=XzkzODAwMTg4N18xMjU5MDdfNDAwNzI4MDM2MF8"></script></dd>
+       </dl>
+    </li>
+    <li class="tool-ship">
+       <dl> 
+         <dd><img src="../Images/Pic_Main/tool-show1.png" /></dd>
+         <a href="../Help/ToolCalculate.aspx"><dd class="yunfei">运费估算</dd></a>
+         <a href="../Help/ToolSize.aspx"><dd class="cima">尺码工具</dd></a>
+         <a href="../Help/PayTaxes.aspx"><dd class="suilv">缴税平台</dd></a>
+       </dl>
+    </li>
+        <li class="weixin-ship">
+       <dl> 
+          <dd><img class="weixin_erweima" src="../Images/Pic_Main/erweima.png" /></dd>
+       </dl>
+    </li>
+     <li class="help-ship">
+    </li>
+ </ul>
+
+    </form>
+</body>
+
+    <script type="text/javascript">
+        $(".top-nav a").mouseenter(function () {
+            $(this).css("color", "#1a9dd1").mouseleave(function () {
+                $(this).css("color", "#FFF")
+            })
+        })
+        $(".last-nav-bj a").mouseenter(function () {
+            $(this).css("color", "#1a9dd1").mouseleave(function () {
+                $(this).css("color", "#FFF")
+            })
+        })
+        $(".user_loginout").mouseenter(function () {
+            $(this).css("color", "#1a9dd1").mouseleave(function () {
+                $(this).css("color", "#FFF")
+            })
+        })
+
+        $(".side-bar dl").css("margin-left", 55)
+        $(".side-bar li").eq(0).mouseenter(function () {
+            $(this).children().animate({ marginLeft: -90 });
+        }).mouseleave(function () {
+            $(this).children().animate({ marginLeft: 90 })
+        })
+        $(".side-bar li").eq(1).mouseenter(function () {
+            $(this).children().animate({ marginLeft: -125 });
+        }).mouseleave(function () {
+            $(this).children().animate({ marginLeft: 125 })
+        })
+        $(".side-bar li").eq(2).mouseenter(function () {
+            $(this).children().animate({ marginLeft: -120 });
+        }).mouseleave(function () {
+            $(this).children().animate({ marginLeft: 120 })
+        })
+        $(".top-nav a").mouseenter(function () {
+            $(this).css("color", "#1a9dd1").mouseleave(function () {
+                $(this).css("color", "#FFF")
+            })
+        })
+        $(".side-bar .help-ship").click(function () {
+            $("html,body").animate({ scrollTop: 0 })
+        })
+        $(".tool-ship a").mouseenter(function () {
+            $(this).children().css("color", "#a1daf0")
+        })
+        $(".tool-ship a").mouseleave(function () {
+            $(this).children().css("color", "#FFF")
+        })
+        $(".last-nav-bj a").mouseenter(function () {
+            $(this).css("color", "#1a9dd1").mouseleave(function () {
+                $(this).css("color", "#FFF")
+            })
+        })
+        $("#ctl00_Label_LoginName").mouseenter(function () {
+            $(this).css("text-decoration", "underline").mouseleave(function () {
+                $(this).css("text-decoration", "none")
+            })
+        })
+        $("#ctl00_Label_LoginName").click(function () {
+            location.href = "../UserCenter/UserCenter.aspx";
+        })
+        $(function () {
+
+        })
+  </script>
+
+</html>

@@ -1,0 +1,68 @@
+ p{ margin:0}
+   input{ margin:0; padding:0; border:none;}
+   ul,dl,dd{ margin:0}
+   ul{ padding:0; list-style:none}
+   body{ margin:0; background-color:#f0f0f0; overflow-y:scroll}
+   img{ display:block;border-style:none;}
+   *{ font-size:14px; font-family:"微软雅黑"; color:#4c4c4c}
+   a{ text-decoration:none;}
+   .top-nav-bj *{ color:#FFF}
+   .top-nav-box,.last-nav-box,.top-title,.main-nav,.return-button-box,.content{ width:1150px; margin-left:auto; margin-right:auto}
+   .top-nav-bj{ background-color:#3b3a38; height:55px; min-width:1150px}
+   .top-nav .left *{ float:left;}
+   .top-nav .left img{ margin-top:19px; margin-right:60px}
+   .top-nav .left a{ line-height:55px; margin-right:60px}
+   .top-nav .left .one{ margin-top:13px}
+   .top-nav .right a{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+   .top-information-bj{ height:116px; background-color:#FFF; margin-top:20px; border-top:solid 1px #bcbcbc; border-bottom:solid 1px #bcbcbc}
+   .last-div{ clear:both}
+   .top-title{ font-size:16px; font-weight:bold; margin-top:40px; margin-bottom:40px}
+   .main-nav .word dl{ float:left; margin-left:50px; color:#808080} 
+   .main-nav .word .a5{ color:#4c4c4c}
+   .main-nav .line1{ width:74px; height:2px; background-color:#1a9dd1; margin-left:345px; margin-top:10px}
+   .main-nav .line2{ width:1150px; height:1px; background-color:#808080; margin-bottom:40px}
+   
+   .content .coupon-code *{ float:left}
+   .content .coupon-code input{ width:180px; height:30px; border-radius:4px;background-color:#f0f0f0; border:solid 1px #bcbcbc; color:#b2b2b2
+   ; text-indent:5px; margin-left:30px; margin-right:10px}
+   .content .coupon-code .button-binding{ width:80px; height:30px; background-color:#1a9dd1; border-radius:2px; color:#FFF; line-height:30px
+   ; text-align:center; cursor:pointer}
+   .content .coupon-code .word1{ margin-top:12px}
+   .content .coupon-code{ margin-left:724px}
+   .content .content-nav .box1{ width:100px; height:30px; border:solid 1px #bcbcbc; color:#808080; line-height:30px; text-align:center
+   ; border-top-left-radius:4px; border-bottom-left-radius:4px; float:left; margin-left:40px; cursor:pointer}
+   .content .content-nav .box2{ width:100px; height:30px; border:solid 1px #bcbcbc; color:#808080; line-height:30px; text-align:center;float:left
+   ; margin-left:-1px;cursor:pointer}
+   .content .content-nav .box3{ width:100px; height:30px; border:solid 1px #bcbcbc; color:#808080; line-height:30px; text-align:center
+   ; border-top-right-radius:4px; border-bottom-right-radius:4px;float:left; margin-left:-1px;cursor:pointer}
+   .content .content-nav{ margin-top:20px;}
+   .sub-content .kuang{ width:1070px; margin-left:auto; margin-right:auto; height:40px; border:solid 1px #bcbcbc; margin-top:40px}
+   .sub-content .kuang .k1 *{ float:left; line-height:40px}
+   .sup-color{ color:#4c4c4c; background-color:#e6e6e6}
+   .return-button-box .button2{ width:100px; height:30px; background-color:#1a9dd1; border-radius:2px; line-height:30px
+   ; text-align:center; color:#FFF; float: right;margin-right: 50px; margin-top:40px;}
+   .change{background-color:#1a9dd1; color:#FFF}
+   .sub-content .kuang{ width:1070px; margin-left:auto; margin-right:auto; height:auto;}
+   .sub-content .kuang .k1 *{ float:left; line-height:40px;}
+   .sub-content .kuang .w1{ margin-left:50px;width:150px;}
+   .sub-content .kuang .w2{ width:150px;}
+   .sub-content .kuang .w3{ width: 80px;}
+   .sub-content .kuang .w4{ width:150px;}
+   .sub-content .kuang .w5{ width:80px;}
+   .sub-content .kuang .w6{ width: 150px;}
+   .sub-content .kuang .w7{ width:250px;}
+   .sub-content .kuang .k1{ background-color:#e6e6e6; height:40px}
+   .sub-content .kuang .k2 *{float:left; line-height:40px}
+   .last-nav-bj{float: left;position: fixed;bottom: 0px;margin-top: 50px;}
+
+   .page_action{float:right;margin-right: 0px;margin-top: 30px;}
+   #ctl00_ContentPlaceHolder1_TextBox_Page{width: 30px;}
+   .hidestritemfinal{display:none;}
+   .page_action input{margin-right: 10px;}
+   #ctl00_ContentPlaceHolder1_TextBox_Page{border:1px solid grey;text-align: center;}
+   #ctl00_ContentPlaceHolder1_Button_Redirect{background-color:#1a9dd1;width:50px;color: white;
+      border-radius: 2px;}
+   #ctl00_ContentPlaceHolder1_Button_FirstPage,
+   #ctl00_ContentPlaceHolder1_Button_PrevPage,
+   #ctl00_ContentPlaceHolder1_Button_NextPage,
+   #ctl00_ContentPlaceHolder1_Button_LastPage{background-color: unset;}

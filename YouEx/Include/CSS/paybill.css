@@ -1,0 +1,53 @@
+ ul,dl,dd{ margin:0}
+     ul{ padding:0; list-style:none}
+    body{ margin:0; background-color:#f0f0f0}
+   img{ display:block}
+   *{ font-size:14px; font-family:"微软雅黑"; color:#FFF}
+   a{ text-decoration:none;}
+   label{cursor:pointer;font-weight:normal;}
+   .top-nav-box,.last-nav-box,.content{ width:1150px; margin-left:auto; margin-right:auto}
+    .top-nav-bj{ background-color:#3b3a38; height:55px; min-width:1150px}
+   .top-nav .left *{ float:left;}
+   .top-nav .left img{ margin-top:19px; margin-right:60px}
+   .top-nav .left a{ line-height:55px; margin-right:60px;}
+   .top-nav .left .one{ margin-top:13px}
+   .top-nav .right a{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+   .top-nav .right div{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+   .last-div{ clear:both}
+   .xq{ width:1150px;; background-color:#FFF; margin-top:40px; overflow:hidden}
+   .xq .lanse{ width:4px; height:22px; background-color:#1a9dd1; float:left; margin-top:20px; margin-left:40px}
+   .xq .title{ float:left; margin-left:5px; color:#4c4c4c; font-size:20px; margin-top:17px;}
+   .xq .qian{ float:right; margin-right:40px; color:#4c4c4c; margin-top:20px}
+   .xq .qian span{ color:#1a9dd1; font-size:20px}
+   .xq .line{ width:1070px; height:1px; background-color:#e5e5e5; margin-top:10px; margin-bottom:40px; margin-left:40px}
+   .xq .nei{ color:#808080; margin-left:80px; margin-bottom:5px}
+   .xq .cheng{ margin-top:40px}
+   .pay{ width:1150px;; background-color:#FFF; margin-top:20px; overflow:hidden}
+   .pay .lanse{ width:4px; height:22px; background-color:#1a9dd1; float:left; margin-top:20px; margin-left:40px}
+   .pay .title{ float:left; margin-left:5px; color:#4c4c4c; font-size:20px; margin-top:17px;}
+   .pay .yu{ float:right; margin-right:40px; color:#4c4c4c; margin-top:20px}
+   .pay .yu span{ color:#4c4c4c; font-size:20px}
+   .pay .line{ width:1070px; height:1px; background-color:#e5e5e5; margin-top:10px;margin-left:40px}
+   .pay .button{ width:180px; height:60px; border-radius:6px; color:#FFF; line-height:60px; text-align:center; 
+      background-color:#1a9dd1; cursor:pointer; margin-left:80px;margin-top: 0px;}
+   .p0 input{ color:#4c4c4c; margin-right:5px; margin-left:5px;}
+   .pay .p1{ color:#4c4c4c; margin-left:70px; margin-top:40px; float:left}
+   .pay .p2{ color:#4c4c4c; margin-left:20px; margin-top:40px; float:left}
+   .pay .p2 select{ width:150px; height:25px; border:solid 1px #808080;; margin-left:5px;}
+   .pay .p3{ color:#4c4c4c; float:left; margin-left:70px; margin-top:40px}
+   .pay .p3 *{ float:left; }
+   .pay .cheng{ margin-bottom:40px }
+   .button1{ width:120px; height:30p; background-color:#1a9dd1; color:#FFF; text-align:center; line-height:30px; margin-top:30px; float:right;
+    border-radius:4px; cursor:pointer; margin-top:40px; margin-bottom:100px}
+   .button2{ width:120px; height:30p; background-color:#1a9dd1; color:#FFF; text-align:center; line-height:30px;float:right; 
+   margin-right:30px;border-radius:4px;cursor:pointer;margin-top: 40px; }
+
+   .button_paybill{ width:120px; height:30px; border-radius:2px; background-color:#1a9dd1; text-align:center; line-height:30px; color:#FFF
+   ; float:right; margin-right:30px;cursor: pointer;border: 1px solid #1a9dd1;margin-top: 40px;}
+   #ctl00_ContentPlaceHolder1_Button_Recharge{background: transparent url("../../Images/Pic_User/sure-pay.png") repeat scroll 0% 0%;width: 100px;height: 25px;}
+   .hide_label_packageno{display: none;}
+   input[name='type_money'],input[name='type_flymoney'],select[name='type_coupon'],
+   input[name='type_bank'],.hide_bank{display: none;}
+   .box4 .c2{margin-left: 83px;margin-top: 20px;float:left;}
+   input[name='type_bank']{background-color: white;border: 1px solid #808080;text-indent: 5px;}
+   .pay .p0 *{color:#4c4c4c;}

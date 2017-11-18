@@ -1,0 +1,26 @@
+input{ margin:0; padding:0; border:none;}
+   ul,dl,dd{ margin:0}
+     ul{ padding:0; list-style:none}
+    body{ margin:0; background-color:#f0f0f0}
+	img{ display:block}
+	*{ font-size:14px; font-family:"微软雅黑"; color:#FFF}
+	a{ text-decoration:none;}
+	.top-nav-box,.last-nav-box{ width:1150px; margin-left:auto; margin-right:auto}
+    .top-nav-bj{ background-color:#3b3a38; height:55px; min-width:1150px}
+	.top-nav .left *{ float:left;}
+	.top-nav .left img{ margin-top:19px; margin-right:60px}
+	.top-nav .left a{ line-height:55px; margin-right:60px}
+	.top-nav .left .one{ margin-top:13px}
+	.top-nav .right a{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+	.top-nav .right div{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+	.content .title{ color:#4d4d4d; font-size:24px; margin-top:20px; margin-bottom:10px; text-align: center;}
+	.content .line{ width:1150px; margin-left:-30px;  height:1px; border-bottom:dashed 1px #b2b2b2}
+	.content{ width:1090px; margin-left:auto; margin-right:auto}
+	.content .t1{ margin-top:20px; color:#4c4c4c; font-weight:bold; margin-left:-30px}
+	.content .t2{  font-weight:bold; margin-top:30px; font-size:16px}
+	.content .c2{ margin-top:5px; color:#808080}
+    .content .t3{ font-weight:bold; margin-top:30px; font-size:16px;}
+	.content * {color:#808080}
+	.content .wen{ margin-top:5px}
+	.content .button{ width:200px; height:40px; background-color:#1a9dd1; border-radius:4px; color:#FFF; text-align:center; line-height:40px
+	; margin-left:500px; margin-bottom:40px; margin-top:40px; cursor:pointer}

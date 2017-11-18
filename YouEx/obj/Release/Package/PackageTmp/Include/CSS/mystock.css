@@ -1,0 +1,529 @@
+input{ margin:0; padding:0; border:none}
+    p{ margin:0}
+    ul,dl,dd{ margin:0}
+     ul{ padding:0; list-style:none}
+    body{ margin:0; background-color:#f0f0f0; overflow-y:scroll}
+   img{ display:block;}
+   .pu-waybill img{margin-left: 20px;}
+   *{ font-size:14px; font-family:"微软雅黑";}
+   a{ text-decoration:none;}
+   label{cursor:pointer;font-weight:normal;}
+   .top-nav-box,.last-nav-box,.main-meun-box,.hexiang,.fenxiang,.pu-waybill{ width:1150px; margin-left:auto; margin-right:auto}
+   .return-button-box{margin-left: auto;width: 1150px;margin-top: 20px;margin-right: auto;}
+    .top-nav-bj{ background-color:#3b3a38; height:55px; min-width:1150px}
+   .top-nav .left *{ float:left;}
+   .top-nav .left img{ margin-top:19px; margin-right:0px}
+   .top-nav .left a{ line-height:55px; margin-right:60px}
+   .top-nav .left .one{ margin-top:13px}
+   .top-nav .right a{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+   .main-meun-box .word *{ float:left; color:#808080; margin-top:20px; cursor:pointer}
+   .main-meun .word .stock{ margin-left:25px;margin-right:50px;}
+    .pending-way-bill{ margin-left:5px;margin-right:50px;}
+   .main-meun .word .way-bill-ing{ margin-right:50px;}
+   .main-meun .word img{margin-top:10px;}
+   .main-meun-box .ht{ width:1150px; height:1px; background-color:#bcbcbc}
+   .last-div{ clear:both; margin-bottom:10px}
+   .main-meun-box .blue1{ width:80px; height:2px; background-color:#1a9dd1; margin-top:-1px}
+   .main-meun-box .blue2{ width:80px; height:2px; background-color:#1a9dd1;  margin-top:-1px; margin-left:103px;}
+   .main-meun-box .blue3{ width:80px; height:2px; background-color:#1a9dd1;  margin-top:-1px; margin-left:224px;}
+   .main-meun-box .blue4{ width:80px; height:2px; background-color:#1a9dd1; margin-top:-1px; margin-left:344px}
+   .b1{ margin-top:10px; margin-left:50px}
+   .b2{ margin-left:50px}
+   .b3{ margin-top:143px}
+    dl{ float:left; margin-right:15px}
+   .arrow{ margin-top:80px}
+   .arrow img{ margin-bottom:90px}
+   .xin1 *{ color:#999999; font-size:12px; margin-bottom:5px}
+   .xin1{ margin-left:94px; margin-top:142px}
+    .xin2 *{ color:#1a9dd1; font-size:12px; margin-bottom:5px; cursor:pointer}
+    .xin2{ margin-left:94px; margin-top:163px}
+   .b5{ margin-top:20px;}
+   .xin3 *{ color:#999999; font-size:12px; margin-bottom:5px}
+   .xin3{ margin-left:94px; margin-top:20px}
+   .xin4 *{ color:#1a9dd1; font-size:12px; margin-bottom:5px; cursor:pointer}
+    .xin4{ margin-left:94px; margin-top:65px}
+   .xin5 *{ color:#999999; font-size:12px; margin-bottom:5px}
+   .xin5{ margin-left:-274px; margin-top:145px}
+   .xin6 *{ color:#1a9dd1; font-size:12px; margin-bottom:5px; cursor:pointer}
+    .xin6{ margin-left:-60px; margin-top:190px}
+    .xin7 *{ color:#999999; font-size:12px; margin-bottom:5px}
+   .xin7{ margin-left:-274px; margin-top:265px}
+   .xin8 *{ color:#1a9dd1; font-size:12px; margin-bottom:5px}
+    .xin8{ margin-left:-60px; margin-top:330px}
+   .fenxiang .button{ margin-top:275px; margin-left:1010px; cursor:pointer}
+   .fenxiang .button .fahuo-fen{ margin-top:20px}
+   .pu-waybill{ border:solid 1px #cccccc; border-radius:10px; width:1150px; height:255px; margin-top:40px; margin-bottom:40px;padding-bottom: 80px;}
+   .transform-ing{margin-left: 50px;}
+   .finish-end{margin-left: 50px;}
+   .pu-waybill .title{ margin-top:20px; margin-left:105px;}
+   .pu-waybill .title .w1{ color:#1a9dd1; font-size:18px;margin-left: -20px;} 
+   .pu-waybill .title .w2{ font-size:18px; color:#4c4c4c; margin-left:210px; margin-right:180px}
+   .pu-waybill .title .w3{ font-size:18px;color:#4c4c4c; margin-left:30px}
+   .pu-waybill .title .w4{ font-size:18px;color:#4c4c4c; margin-left:160px;}
+   .pu-waybill .title *{ float:left}
+   .pu-waybill .b9 .word{ color:#bdbdbd; font-size:12px}
+   .pu-waybill .b9 input{ float:left; margin-top:10px; margin-right:20px; margin-left:15px}
+   .pu-waybill .b9 .wu1{ color:#1a9dd1; margin-left:45px; margin-top:5px; cursor:pointer;background-color: #F0F0F0;}
+   .pu-waybill .b9 .shi{ margin-top:10px; margin-bottom:10px; margin-left:55px}
+   .pu-waybill .b9 .tanhao{ margin-left:150px; margin-top:-70px; margin-bottom:50px}
+   .pu-waybill .b9 .qi-pic{ margin-left:45px}
+   .b9{ margin-top:20px; margin-left:50px;width:180px;}
+   .paybill_b9 .word{ color:#bdbdbd; font-size:12px}
+   .paybill_b9{margin-top:20px; margin-left:50px;width: 200px;}
+   .bb9{margin-top:20px;}
+   .pu-waybill .bb9 .wu1{ color:#1a9dd1; margin-left:65px; margin-top:5px; cursor:pointer}
+   .pu-waybill .bb9 .word{ color:#bdbdbd; font-size:12px}
+   .xin9 *{ color:#999999; font-size:12px; margin-bottom:5px}
+    .xin9{ margin-left:60px; margin-top:50px}
+    .transform_xin9 *{ color:#999999; font-size:12px; margin-bottom:5px}
+    .transform_xin9{ margin-left:120px; margin-top:25px}
+    .finished_xin9 *{ color:#999999; font-size:12px; margin-bottom:5px}
+    .finished_xin9{ margin-left:120px; margin-top:25px}
+    .xin10 *{ color:#1a9dd1; font-size:12px; margin-bottom:5px; cursor:pointer;background:#F0F0F0;}
+    .xin11 *{ color:#1a9dd1; font-size:12px; margin-bottom:5px; cursor:pointer;margin-left:90px; margin-top:96px}
+    .xin10{ margin-left:90px; margin-top:96px}
+   .xin10 .qi{ margin-top:25px}
+    .pu-waybill .button{ margin-top:70px; margin-left:1010px;}
+   .pu-waybill .button .fahuo-fen{ margin-top:20px}
+   .return-button{ width:100px; height:30px; background-color:#1a9dd1; margin-bottom:40px; line-height:30px; text-align:center; border-radius:2px
+   ; margin-left:1010px;cursor: pointer;color:white;}
+   /*交互*/
+   .address{ width:1000px; height:600px; background-color:#FFF; border:solid 3px #b3b3b3; position:fixed; left:50%; margin-left:-500px;top:100px; overflow-y:scroll}
+   .address *{ color:#4c4c4c}
+   .de-address{ width:950px; height:20px; border:solid 1px #f9dfb2; background-color:#fff8d9; margin-top:20px; margin-left:20px}
+   .de-address img{ margin-left:28px; margin-right:6px; margin-top:4px}
+   .de-address *{ float:left; color:#fd8902}
+   .de-address input{ margin-left:20px; margin-right:7px; margin-top:4px}
+   .de-address .address3{ margin-left:270px}
+   .de-address2 *{ float:left}
+   .de-address2{ margin-left:125px;}
+   .de-address2 input{ margin-top:4px; margin-right:8px}
+   .de-address2 .address3{ margin-left:270px; color:#1a9dd1}
+   .button-xiu{ margin-left:280px; margin-top:20px;}
+   .button-xiu .button1{ width:80px; height:25px; border-radius:2px; background-color:#bcbcbc; color:#FFF; float:left; text-align:center; line-height:25px; cursor:pointer}
+   .button-xiu .button2{ width:80px; height:25px; border-radius:2px; background-color:#1a9dd1; color:#FFF; float:left; text-align:center; line-height:25px; margin-left:20px;cursor:pointer}
+   .address .title{ margin-left:70px; margin-top:20px; font-size:18px; font-weight:bold; margin-bottom:20px}
+   .address .line1{ margin-left:20px}
+   .address .line2{ margin-left:20px; margin-top:10px}
+   .address .address-soft *{ float:left; line-height:25px}
+   .address .address-soft input{ width:150px; height:25px; border-radius:2px; border:solid 1px #bcbcbc; margin-left:10px;line-height:20px}
+   .address .address-soft{ margin-left:270px; margin-top:20px}
+   .address .addressee *{ float:left; line-height:25px}
+   .address .addressee input{ width:150px; height:25px; border-radius:2px; border:solid 1px #bcbcbc; margin-left:10px;line-height:20px}
+   .address .addressee{ margin-left:285px; margin-top:20px}
+   .address .addressee-phone *{ float:left; line-height:25px}
+   .address .addressee-phone input{ width:200px; height:25px; border-radius:2px; border:solid 1px #bcbcbc; margin-left:10px;line-height:20px}
+   .address .addressee-phone{ margin-left:258px; margin-top:20px}
+   .address .remark *{ float:left; line-height:25px; margin-right:10px}
+   .address .remark{ margin-left:300px; margin-top:20px}
+   .address .area *{ float:left; line-height:25px}
+   .address .area select{ width:110px; height:25px; border-radius:2px; border:solid 1px #bcbcbc; margin-left:10px}
+   .address .area{ margin-left:272px; margin-top:20px}
+   .address .address-reach *{ float:left; line-height:25px}
+   .address .address-reach input{ width:400px; height:25px; border-radius:2px; border:solid 1px #bcbcbc; margin-left:10px; color:#b2b2b2; text-indent:5px; line-height:20px}
+   .address .address-reach{ margin-left:272px; margin-top:20px}
+   .address .zip-code *{ float:left; line-height:25px}
+   .address .zip-code input{ width:200px; height:25px; border-radius:2px; border:solid 1px #bcbcbc; margin-left:10px;line-height:20px}
+   .address .zip-code{ margin-left:300px; margin-top:20px}
+   .address .id-card *{ float:left; line-height:25px}
+   .address .id-card input{ width:300px; height:25px; border-radius:2px; border:solid 1px #bcbcbc; margin-left:10px;line-height:20px}
+   .address .id-card{ margin-left:258px; margin-top:20px}
+   .address .card *{ float:left; line-height:25px}
+   .address .card{ margin-left:260px; margin-top:20px}
+   .address .card .word1{ color:#1a9dd1; font-size:12px; margin-left:5px}
+   .address .card img{ margin-left:10px; cursor:pointer}
+   .address .button *{ float:left; margin-left:40px; cursor:pointer; cursor:pointer; margin-bottom:40px}
+   .address .button{ margin-left:350px; margin-top:30px}
+   .bj{ background-color:#000; opacity:0.5;width:100%; height:100%; position:fixed; left:0; top:0;display: none;}
+   div[class^="refund_"]{ width:700px; height:auto;display:none; background-color:#FFF; border:solid 3px #b3b3b3; 
+    position:fixed; left:50%; margin-left:-350px;top:50px;z-index: 1;}
+  div[class^="refund_"] *{color:#4c4c4c;}
+   div[class^="refund_"] .title{ margin-left:70px; margin-top:20px; font-size:18px; font-weight:bold; margin-bottom:20px}
+   div[class^="refund_"] .line1{ margin-left:20px}
+   div[class^="refund_"] .addressee *{ float:left; line-height:25px}
+   div[class^="refund_"] .addressee input{ width:150px; height:25px; border-radius:2px; border:solid 1px #bcbcbc; 
+    margin-left:10px;line-height:20px;}
+   div[class^="refund_"] .addressee{ margin-left:155px; margin-top:20px}
+   div[class^="refund_"] .addressee-phone *{ float:left; line-height:25px}
+   div[class^="refund_"] .addressee-phone input{ width:200px; height:25px; border-radius:2px; border:solid 1px #bcbcbc; margin-left:10px;line-height:20px}
+   div[class^="refund_"] .addressee-phone{ margin-left:128px; margin-top:20px}
+   div[class^="refund_"] .zhou *{ float:left; line-height:25px}
+   div[class^="refund_"] .zhou input{ width:200px; height:25px; border-radius:2px; border:solid 1px #bcbcbc; margin-left:10px;line-height:20px}
+   div[class^="refund_"] .zhou{ margin-left:185px; margin-top:20px}
+   div[class^="refund_"] .zip-code *{ float:left; line-height:25px}
+   div[class^="refund_"] .zip-code input{ width:150px; height:25px; border-radius:2px; border:solid 1px #bcbcbc; margin-left:10px;line-height:20px}
+   div[class^="refund_"] .zip-code{ margin-left:172px; margin-top:20px}
+   div[class^="refund_"] .address-one *{ float:left; line-height:25px}
+   div[class^="refund_"] .address-one input{ width:300px; height:25px; border-radius:2px; border:solid 1px #bcbcbc; margin-left:10px;line-height:20px}
+   div[class^="refund_"] .address-one{ margin-left:130px; margin-top:20px}
+   div[class^="refund_"] .re-waybill-title *{ float:left;}
+   div[class^="refund_"] .re-waybill-title input{ margin-right:10px}
+   div[class^="refund_"] .re-waybill-title .word{margin-top:-4px}
+   div[class^="refund_"] .re-waybill-title{ margin-left:130px; margin-top:20px}
+   div[class^="refund_"] .re-waybill-content *{ float:left; line-height:25px}
+   div[class^="refund_"] .re-waybill-content{ margin-left:160px; margin-top:20px}
+   div[class^="refund_"] .re-waybill-content .word1{ color:#1a9dd1; font-size:12px; margin-left:5px}
+   div[class^="refund_"] .re-waybill-content img{ margin-left:10px; cursor:pointer}
+   div[class^="refund_"] .e-mail *{ float:left; line-height:25px}
+   div[class^="refund_"] .e-mail input{ width:200px; height:25px; border-radius:2px; border:solid 1px #bcbcbc; margin-left:10px;line-height:20px}
+   div[class^="refund_"] .e-mail{ margin-left:145px; margin-top:20px}
+   div[class^="refund_"] .button *{ float:left; margin-left:40px; cursor:pointer; cursor:pointer}
+   div[class^="refund_"] .button{ margin-left:200px; margin-top:40px;width:100%;margin-bottom: 100px;}
+   div[class^="edit-cargo"]{ width:1070px; height:auto; background-color:#FFF; border:3px solid #CCC; position:fixed; top:50%; margin-top:-300px; left:50%; margin-left:-525px
+   ; z-index: 1;display: none;}
+   div[class^="edit-cargo"] *{ color:#4c4c4c}
+   div[class^="edit-cargo"] .accont-info p{ margin-left:20px; margin-top:20px; font-weight:bold; font-size:16px}
+   div[class^="edit-cargo"] .accont-info *{ float:left}
+   div[class^="edit-cargo"] .line{ width:910px; height:1px; background-color:#bcbcbc; margin-left:20px; margin-top:30px}
+   div[class^="edit-cargo"] .content-box{ width:1000px; margin-left:auto; margin-right:auto; margin-top:30px}
+   div[class^="edit-cargo"] .content-box .t3 .word{ color:#1a9dd1; margin-top:20px; margin-bottom:20px}
+   div[class^="edit-cargo"] .content-box .t3-title{ width:970px; height:45px; background-color:#f2f2f2; border:solid 1px #dcdcdc}
+   div[class^="edit-cargo"] .content-box .t3-title *{ float:left; line-height:45px}
+   div[class^="edit-cargo"] .content-box .t3-title img{ margin-top:10px}
+   div[class^="edit-cargo"] .d1{ margin-left:20px; margin-right:120px}
+   div[class^="edit-cargo"] .d2{ margin-left:60px; margin-right:60px}
+   div[class^="edit-cargo"] .d3,.d4,.d7{ margin-left:30px; margin-right:29px}
+   div[class^="edit-cargo"] .d6{ margin-left:30px; margin-right:120px}
+   div[class^="edit-cargo"] .d5{ margin-left:14px; margin-right:14px}
+   div[class^="edit-cargo"] .d8{ margin-left:27px}
+   div[class^="edit-cargo"] .t3-content{ margin-top:20px; margin-bottom:20px;}
+   div[class^="edit-cargo"] .t3-content *{ float:left;margin-top: 5px;text-align: center;margin-left: 5px;}
+   div[class^="edit-cargo"] .t3-content input{ border:solid 1px #cccccc}
+   div[class^="edit-cargo"] .s1 *{ width:180px; height:30px; border-radius:2px; margin-right:20px;}
+   div[class^="edit-cargo"] .s2 *{ width:150px; height:30px; border-radius:2px; margin-right:20px}
+   div[class^="edit-cargo"] .s3 *{ width:80px; height:30px; margin-right:10px}
+   div[class^="edit-cargo"] .s4 *{ width:80px; height:30px; margin-left:18px}
+   div[class^="edit-cargo"] .s6{margin-left: 5px;}
+   .s5 *{ width:200px; height:30px; margin-left:10px; margin-right:20px}
+   .s7 *{ width:60px; height:30px; margin-left:50px; margin-right:20px}
+   div[class^="edit-cargo"] .t3-content1{ margin-top:20px; margin-bottom:20px; background-color:#f2f2f2; height:60px;border:solid 1px #dcdcdc;}
+   div[class^="edit-cargo"] .t3-content1 *{ float:left;}
+   div[class^="edit-cargo"] .t3-content1 input{ border:solid 1px #cccccc}
+   div[class^="edit-cargo"] .t3-content2{ margin-top:20px; margin-bottom:20px; background-color:#f2f2f2; height:60px;border:solid 1px #dcdcdc}
+   div[class^="edit-cargo"] .t3-content2 .add *{ float:left; line-height:29px; margin-right:10px;}
+   div[class^="edit-cargo"] .t3-content2 .add{ margin-top:15px; margin-left:20px;}
+   div[class^="edit-cargo"] .t3-content2 .upload *{ float:left; line-height:29px; margin-right:10px;}
+   div[class^="edit-cargo"] .t3-content2 .upload{ margin-top:15px; margin-left:220px;}
+   div[class^="edit-cargo"] .t3-content2 .edit-cargo{ margin-left:384px ; float:left; margin-top:6px}
+   div[class^="edit-cargo"] .t3-content2 .edit-cargo *{ float:right; }
+   div[class^="edit-cargo"] .t3-content2 .edit-cargo .special{ color:#1a9dd1; font-size:18px}
+   div[class^="edit-cargo"] .t3-content3 input{ border:solid 1px #cccccc; margin-left:10px}
+   div[class^="edit-cargo"] .button3 *{ float:left; margin-top:30px; margin-bottom:20px; cursor:pointer;}
+   /*合箱*/
+   .he { position:fixed;top:150px; left:50%; margin-left:-575px; border:solid 3px #b3b3b3}
+   .he *{ color:#4c4c4c;}
+    .he .content-bj{ width:1150px; height:auto; background-color:#FFF; overflow:hidden;}
+    .he .content-box{ width:1070px; margin-left:auto; margin-right:auto}
+   .t4 .word{ color:#1a9dd1; margin-top:20px; margin-bottom:20px}
+   .t4 .address1 *{ float:left; padding-top:10px; }
+   .t4 .address1-word{ margin-top:-4px; margin-left:10px;color:#fd8902}
+   .t4 .address1{ background-color:#fff8d9; border:solid 1px #f9dfb2; width:865px; height:30px;}
+   .t4 .address1 img{ margin-left:5px}
+   .t4 .address1 .p{ float:right; margin-right:10px; margin-top:-5px; color:#1a9dd1; cursor:pointer}
+   .t4 .address1 .p1{ float:right; margin-right:-18px; margin-top:0px; color:#1a9dd1; cursor:pointer}
+   .t4 .address1 .c12{ margin-top:10px; margin-left:10px}
+    .he .t5 .title{ color:#1a9dd1; margin-top:30px;margin-bottom:20px}
+    .he .t5 .content .road *{ float:left; margin-right:5px}
+    .he  .t5 .content .road img{ margin-top:5px}
+   .he .t5 .content .road a{ color:#1a9dd1; cursor:pointer}
+   .he .t5 .content .road{ float:left; margin-right:50px}
+   .he .t5 .content .c12{ margin-top:4px}
+   .he .t6 .title{ color:#1a9dd1;margin-bottom:20px; margin-top:20px}
+   .he .t6 .content .choose *{ float:left; margin-right:5px}
+   .he .t6 .content .choose img{ margin-top:3px; margin-right:5px}
+   .he .t6 .content .choose{ margin-right:40px; float:left}
+   .he .t6 .content .c12{ margin-top:4px}
+   .he .t7 .title{ color:#1a9dd1;margin-bottom:20px; margin-top:20px}
+   .he .t7 .content .choose *{ float:left; }
+   .he .t7 .content .choose input{ border:solid 1px #bcbcbc; color:#bcbcbc; margin-right:5px;}
+   .he .t7 .content .choose{ margin-top:10px}
+   .he .t7 .content .c12{ margin-top:5px}
+   .he .t7 .content .c13{ margin-left:10px}
+   .he .t8 .title{ color:#1a9dd1;margin-bottom:20px; margin-top:20px}
+   .he .t8 .content .choose *{ float:left; margin-right:5px}
+   .he .t8 .content .choose{ margin-right:20px; float:left}
+   .he .t8 .content .c12{ margin-top:4px}
+   .he .t9 .title{ color:#1a9dd1;margin-bottom:20px; margin-top:20px}
+   .he .t9 .content  *{ float:left; margin-right:5px}
+   .he .t9 .content  a{ color:#1a9dd1}
+   .he .t9 .content .c13{ margin-top:4px}
+   .he .line{ width:1070px; height:1px; background-color:#bcbcbc; margin-top:20px; margin-left:0px}
+   .he .last-button *{ float:right; margin-left:20px; margin-top:20px; cursor:pointer; margin-bottom:20px}
+   .he .title1{ color:#4c4c4c; font-size:16px; font-weight:bold; margin-top:20px}
+   .he .line1 img{ margin-top:20px; margin-bottom:20px}
+   /*发货*/
+   div[class^="fahuo_"] { position:fixed;display:none; top:5px; left:14%; width: 73%;
+    border:solid 3px #b3b3b3;z-index: 1; height:680px;background-color: white;max-width:1150px;}
+    @media screen and (-webkit-min-device-pixel-ratio:0){div[class^="fahuo_"]{height:91%;}}
+    div[class^="fahuo_"] .content-bj *{ color:#4c4c4c;}
+    div[class^="fahuo_"] .content-bj .submit_delivery_default{color:white;}
+    div[class^="fahuo_"] .content-bj{ width:100%;background-color:#FFF; height:89%;}
+    div[class^="fahuo_"] .content-box{ width:95%; margin-left:auto; margin-right:auto;height:100%;}
+   .t4 .word{ color:#1a9dd1; margin-top:20px; margin-bottom:20px}
+   .t4 .address1 *{ float:left; padding-top:10px; }
+   .t4 .address1-word{ margin-top:-4px; margin-left:10px;color:#fd8902}
+   .t4 .address1{ background-color:#fff8d9; border:solid 1px #f9dfb2; width:865px; height:30px;}
+   .t4 .address1 img{ margin-left:5px}
+   .t4 .address1 .p{ float:right; margin-right:10px; margin-top:-5px; color:#1a9dd1; cursor:pointer}
+   .t4 .address1 .p1{ float:right; margin-right:-18px; margin-top:0px; color:#1a9dd1; cursor:pointer}
+   .t4 .address1 .c12{ margin-top:10px; margin-left:10px}
+   div[class^="fahuo_"] .t5 .title{ color:#1a9dd1; margin-top:30px;margin-bottom:20px}
+   div[class^="fahuo_"] .t5 .content .road *{ float:left; margin-right:5px}
+   div[class^="fahuo_"]  .t5 .content .road img{ margin-top:5px}
+   div[class^="fahuo_"] .t5 .content .road a{ color:#1a9dd1; cursor:pointer}
+   div[class^="fahuo_"] .t5 .content .road{ float:left; margin-right:50px}
+   div[class^="fahuo_"] .t5 .content .c12{ margin-top:4px}
+   div[class^="fahuo_"] .t6 .title{ color:#1a9dd1;margin-bottom:20px; margin-top:20px}
+   div[class^="fahuo_"] .t6 .content .choose *{ float:left; margin-right:5px}
+   div[class^="fahuo_"] .t6 .content .choose img{ margin-top:3px; margin-right:5px}
+   div[class^="fahuo_"] .t6 .content .choose{ margin-right:40px; float:left}
+   div[class^="fahuo_"] .t6 .content .c12{ margin-top:4px}
+   div[class^="fahuo_"] .t7 .title{ color:#1a9dd1;margin-bottom:20px; margin-top:20px}
+   div[class^="fahuo_"] .t7 .content .choose *{ float:left; }
+   div[class^="fahuo_"] .t7 .content .choose input{ border:solid 1px #bcbcbc; color:#4c4c4c; margin-right:5px;}
+   div[class^="fahuo_"] .t7 .content .choose{ margin-top:10px}
+   div[class^="fahuo_"] .t7 .content .c12{ margin-top:5px}
+   div[class^="fahuo_"] .t7 .content .c13{ margin-left:10px}
+   div[class^="fahuo_"] .t8 .title{ color:#1a9dd1;margin-bottom:20px; margin-top:20px}
+   div[class^="fahuo_"] .t8 .content .choose *{ float:left; margin-right:5px}
+   div[class^="fahuo_"] .t8 .content .choose{ margin-right:20px; float:left}
+   div[class^="fahuo_"] .t8 .content .c12{ margin-top:4px}
+   div[class^="fahuo_"] .t9 .title{ color:#1a9dd1;margin-bottom:20px; margin-top:20px}
+   div[class^="fahuo_"] .t9 .content  *{ float:left; margin-right:5px}
+   div[class^="fahuo_"] .t9 .content  a{ color:#1a9dd1}
+   div[class^="fahuo_"] .t9 .content .c13{ margin-top:4px}
+   div[class^="fahuo_"] .line{ width:1070px; height:1px; background-color:#bcbcbc; 
+    margin-left:0px;float:left;}
+   div[class^="fahuo_"] .title1{ color:#4c4c4c; font-size:16px; font-weight:bold; margin-top:20px}
+   div[class^="fahuo_"] .line1 img{ margin-top:20px; margin-bottom:20px}
+   .add{margin-left:10px;}
+   .add_package_sure,.add_delivery_sure{margin-left:650px;width: 80px;height: 25px; background:url("../../Images/Pic_User/sure.png");}
+   .no-sure{margin-left:20px; }
+   .zhi-fahuo{background: url("../../Images/Pic_User/bianji.png");width:100px;height: 30px;cursor: pointer;}
+   .fahuo-fen{background: url("../../Images/Pic_User/fahuo-fen.png");width:100px;height: 30px;cursor: pointer;}
+   .submit_delivery_default{float:right; margin-top:30px; cursor:pointer;background: #1A9DD1;
+    width: 70px;height: 30px;color: white;}
+   .button_delivery_default{float:right; margin-left:20px; margin-top:30px;
+    width: 70px;height: 30px;cursor: pointer;margin-right: 60px;}  
+   div[class^="explain_"] { width:90%; height:89%; background-color:white; overflow-y:scroll; 
+    border:solid 3px #b3b3b3;position:fixed; top:25px;z-index: 1;display: none;left:5%; }
+   @media screen and (-webkit-min-device-pixel-ratio:0){div[class^="explain_"]{height:90%;}}
+   div[class^="explain_"] .line{ width:90%; height:1px; background-color:#bcbcbc; margin-top:20px; margin-bottom:100px;float:left;}
+   div[class^="explain_"] *{color: #4c4c4c;}
+   div[id^="clone_explain"]{ width:45%; margin-left:25px;float: left;}
+   div[id^="clone_explain"] .t3 .word{ color:#1a9dd1; margin-top:20px; margin-bottom:20px}
+   div[id^="clone_explain"] .t3-title{ width:1070px; height:45px; background-color:#f2f2f2; border:solid 1px #dcdcdc}
+   div[id^="clone_explain"] .t3-title *{ float:left; line-height:45px}
+   div[id^="clone_explain"] .t3-title img{ margin-top:10px}
+   .newword{font-size: medium;margin-top: 15px;margin-bottom: 15px;}
+    .t3-content2{ margin-top:20px; margin-bottom:20px; background-color:#f2f2f2; height:60px;border:solid 1px #dcdcdc}
+    .t3-content2 .add *{ float:left; line-height:29px; margin-right:10px;}
+    .t3-content2 .add{ margin-top:15px; margin-left:20px;}
+    .t3-content2 .upload *{ float:left; line-height:29px; margin-right:10px;cursor: pointer;}
+    .t3-content2 .upload{ margin-top:15px; margin-left:220px;}
+    .t3-content2 .pay{ margin-left:384px ; float:left; margin-top:6px}
+    .t3-content2 .pay *{ float:right; }
+    .t3-content2 .pay .special{ color:#1a9dd1; font-size:18px}
+    .t3-content2 .pay_2{ margin-left:100px ;margin-right: 100px; float:left; margin-top:6px}
+    .t3-content2 .pay_2 *{ float:right; }
+    .t3-content2 .pay_2 .special{ color:#1a9dd1; font-size:18px}
+    .word-title{ height:45px; background-color:#f2f2f2; border:solid 1px #dcdcdc}
+    .word-title *{ float: left;line-height: 45px;}
+    .word-title img{ margin-top:10px;margin-left:1%;}
+    .word_brand{ width: 20%;text-align: center;}
+    .word_name{ width: 20%;text-align: center;}
+    .word_price{ width:10%;text-align: center;}
+    .word_amount{ width: 10%;text-align: center;}
+    .word_buyurl{ width: 20%;text-align: center;}
+    .word_action{ width: 10%;text-align: center;}
+    .search_name{width:20%;}
+    .data_brand{ width:20%; height:30px; border-radius:2px; margin-left:1%;}
+    .data_name{ height:30px; border-radius:2px;width:100%;}
+    .data_price{ width:10%; height:30px; margin-left: 1%;}
+    .data_amount{ width:10%; height:30px; margin-left:2%;}
+    .data_count{ width:10%; height:30px; margin-left:2%;}
+    .data_buyurl{ width:20%; height:30px; margin-left:2%;}
+    .data_button{ margin-left: 3%;}
+    .hide_calculate{display: none;}
+    .data_content{ margin-top:20px; margin-bottom:20px;}
+    .data_content *{ float:left;}
+    .data_content input{ border:solid 1px #cccccc}
+    div[id^="cloneing_explain"]{width: 45%;height:auto;float: left;margin-left: 2%;}
+    div[id^="cloneing_explain"] div[id^="clone_explain"] {width: 100%;margin-left: 2%;}
+    .t6 .title{ color:#1a9dd1;margin-bottom:20px;}
+    .t6 .content .choose *{ float:left; margin-right:5px}
+    .t6 .content .choose img{ margin-top:3px; margin-right:5px}
+    .t6 .content .choose{ margin-right:40px; float:left}
+    .t6 .content .c12{ margin-top:4px}
+    .t7 .title{ color:#1a9dd1;margin-bottom:20px; margin-top:20px}
+    .t7 .content .choose *{ float:left; }
+    .t7 .content .choose input{ border:solid 1px #bcbcbc; color:black; margin-right:5px;}
+    .t7 .content .choose{ margin-top:10px}
+    .t7 .content .c12{ margin-top:5px}
+    .t7 .content .c13{ margin-left:10px}
+    .t8 .title{ color:#1a9dd1;margin-bottom:20px; margin-top:20px}
+    .t8 .content .choose *{ float:left; margin-right:5px}
+    .t8 .content .choose{ margin-right:20px; float:left}
+    .t8 .content .c12{ margin-top:4px}
+    .t9 .title{ color:#1a9dd1;margin-bottom:20px; margin-top:20px}
+    .t9 .content  *{ float:left; margin-right:5px}
+    .t9 .content  a{ color:#1a9dd1}
+    .t9 .content .c13{ margin-top:4px}
+    .add_delivery_stock{width:155px;height: 30px;background: #1a9dd1;cursor: pointer;float: left;margin-top: 30px;}
+    .add_delivery_wait{width:155px;height: 30px;background: #1a9dd1;cursor: pointer;float: left;margin-top: 30px;}
+    .add_delivery_word{font-size: large;margin-left: 30px;line-height: 1.5;}
+    .save_stock_good{float: left;width: 100px;height: 30px;background: #1a9dd1;margin-left:64%;
+      cursor: pointer;margin-top: 30px;line-height:30px;text-align:center;}    
+    .cancel_stock_good{float: left;width: 100px;height: 30px;background: white;line-height:30px;
+      border: 1px grey solid;margin-left:50px;cursor: pointer;margin-top: 30px;text-align:center;}
+    .save_stock_good_word{color: white;font-size: medium;}
+    .cancel_stock_good_word{font-size: medium;}
+    div[id^="clone_explain"] .clone_remove{display: none;}
+    div[id^="cloneing_explain"] .clone_remove{display: block;float:left;cursor:pointer;
+      margin-top: 0.5%;width:40px;background-color:#1A9DD1;color:white;text-align:center;}
+    select[name^="roadline_clone"]{display: none;}
+    select[name^="address_clone"]{display: none;}
+    select[name^="roadline_explain"]{float: left;width:30%;margin-top: 0.5%;}
+    select[name^="address_explain"]{float: left;margin-right: 20px;margin-left: 10px;width:30%;margin-top: 0.5%;}
+    .pay_Bill{background: url("../../Images/Pic_User/fahuo.png");width:100px;height: 30px;cursor: pointer;}    
+    .save_add_package{float:right;margin-top:20px; cursor:pointer;width: 70px;height: 30px;background: #1A9DD1;color: white;}
+    .cancel_add_package{float:right; margin-left:20px; margin-top:20px;
+      width: 70px;height: 30px;cursor: pointer;margin-right:60px;}
+    div[class^="addpackage"] { position:fixed;top:5px; left:14%; width:73%;height:680px;
+      border:solid 3px #b3b3b3;z-index: 1;display: none;}
+    @media screen and (-webkit-min-device-pixel-ratio:0){div[class^="addpackage"]{height:91%;}}
+    div[class^="addpackage"] .content-bj *{ color:#4c4c4c;}
+    div[class^="addpackage"] .content-bj .save_add_package{ color:white;}
+    div[class^="addpackage"] .content-bj{ width:100%; height:100%; background-color:#FFF; overflow:hidden;}
+    div[class^="addpackage"] .content-box{ width:95%; margin-left:auto; margin-right:auto}
+    div[class^="addpackage"] .t5 .title{ color:#1a9dd1; margin-top:30px;margin-bottom:20px}
+     div[class^="addpackage"] .t5 .content .road *{ float:left; margin-right:5px}
+     div[class^="addpackage"]  .t5 .content .road img{ margin-top:5px}
+     div[class^="addpackage"] .t5 .content .road a{ color:#1a9dd1; cursor:pointer}
+     div[class^="addpackage"] .t5 .content .road{ float:left; margin-right:50px}
+     div[class^="addpackage"] .t5 .content .c12{ margin-top:4px}
+     div[class^="addpackage"] .t6 .title{ color:#1a9dd1;margin-bottom:20px; margin-top:20px}
+     div[class^="addpackage"] .t6 .content .choose *{ float:left; margin-right:5px}
+     div[class^="addpackage"] .t6 .content .choose img{ margin-top:3px; margin-right:5px}
+     div[class^="addpackage"] .t6 .content .choose{ margin-right:40px; float:left}
+     div[class^="addpackage"] .t6 .content .c12{ margin-top:4px}
+     div[class^="addpackage"] .t7 .title{ color:#1a9dd1;margin-bottom:20px; margin-top:20px}
+     div[class^="addpackage"] .t7 .content .choose *{ float:left; }
+     div[class^="addpackage"] .t7 .content .choose input{ border:solid 1px #bcbcbc; color:#4c4c4c; margin-right:5px;}
+     div[class^="addpackage"] .t7 .content .choose{ margin-top:10px}
+     div[class^="addpackage"] .t7 .content .c12{ margin-top:5px}
+     div[class^="addpackage"] .t7 .content .c13{ margin-left:10px}
+     div[class^="addpackage"] .t8 .title{ color:#1a9dd1;margin-bottom:20px; margin-top:20px}
+     div[class^="addpackage"] .t8 .content .choose *{ float:left; margin-right:5px}
+     div[class^="addpackage"] .t8 .content .choose{ margin-right:20px; float:left}
+     div[class^="addpackage"] .t8 .content .c12{ margin-top:4px}
+     div[class^="addpackage"] .t9 .title{ color:#1a9dd1;margin-bottom:20px; margin-top:20px}
+     div[class^="addpackage"] .t9 .content  *{ float:left; margin-right:5px}
+     div[class^="addpackage"] .t9 .content  a{ color:#1a9dd1}
+     div[class^="addpackage"] .t9 .content .c13{ margin-top:4px}
+     div[class^="addpackage"] .line{ width:1070px; height:1px; background-color:#bcbcbc; 
+      margin-top:20px; margin-left:0px;}
+     div[class^="addpackage"] .title1{ color:#4c4c4c; font-size:16px; font-weight:bold; margin-top:20px}
+     div[class^="addpackage"] .line1 img{ margin-top:20px; margin-bottom:20px}     
+     .submit_default_package{cursor: pointer;width: 100px;height: 30px;background-color: #1A9DD1;
+      color: #FFF;padding-left: 20px;margin-top: 20px;}
+     .submit_explain_package{cursor: pointer;width: 100px;height: 30px;background-color: #1A9DD1;
+      color: #FFF;padding-left: 20px;margin-top: 20px;}   
+      .add_packages{cursor: pointer;width: 100px;height: 30px;background-color: #1A9DD1;
+      color: #FFF;padding-left: 20px;margin-top: 20px;margin-top: -20px;display: none;} 
+      .cancel_delivery_action{cursor: pointer;width: 100px;height: 30px;background-color: #1A9DD1;
+      color: #FFF;text-align: center;margin-top: 20px;margin-top: 20px;display: none;}
+      .pay_bill{cursor: pointer;width: 100px;height: 30px;background-color: #1A9DD1;
+      color: #FFF;margin-top: 20px;text-align: center;}    
+     div[class^="submitpackage"] { position:fixed;top:5px; left:14%; border:solid 3px #b3b3b3;
+      z-index: 1;display: none;width:73%;height:680px;max-width:1150px;}
+     @media screen and (-webkit-min-device-pixel-ratio:0){div[class^="submitpackage"]{height:91%;}}
+    .content-bj *{ color:#4c4c4c;}
+    div[class^="submitpackage"] .content-bj{ width:100%; height:100%; background-color:#FFF; overflow:hidden;}
+    div[class^="submitpackage"] .content-box{ width:95%; margin-left:auto; margin-right:auto}
+    div[class^="submitpackage"] .t5 .title{ color:#1a9dd1; margin-top:30px;margin-bottom:20px}
+     div[class^="submitpackage"] .t5 .content .road *{ float:left; margin-right:5px}
+     div[class^="submitpackage"]  .t5 .content .road img{ margin-top:5px}
+     div[class^="submitpackage"] .t5 .content .road a{ color:#1a9dd1; cursor:pointer}
+     div[class^="submitpackage"] .t5 .content .road{ float:left; margin-right:50px}
+     div[class^="submitpackage"] .t5 .content .c12{ margin-top:4px}
+     div[class^="submitpackage"] .t6 .title{ color:#1a9dd1;margin-bottom:20px; margin-top:20px}
+     div[class^="submitpackage"] .t6 .content .choose *{ float:left; margin-right:5px}
+     div[class^="submitpackage"] .t6 .content .choose img{ margin-top:3px; margin-right:5px}
+     div[class^="submitpackage"] .t6 .content .choose{ margin-right:40px; float:left}
+     div[class^="submitpackage"] .t6 .content .c12{ margin-top:4px}
+     div[class^="submitpackage"] .t7 .title{ color:#1a9dd1;margin-bottom:20px; margin-top:20px}
+     div[class^="submitpackage"] .t7 .content .choose *{ float:left; }
+     div[class^="submitpackage"] .t7 .content .choose input{ border:solid 1px #bcbcbc; color:#4c4c4c; margin-right:5px;}
+     div[class^="submitpackage"] .t7 .content .choose{ margin-top:10px}
+     div[class^="submitpackage"] .t7 .content .c12{ margin-top:5px}
+     div[class^="submitpackage"] .t7 .content .c13{ margin-left:10px}
+     div[class^="submitpackage"] .t8 .title{ color:#1a9dd1;margin-bottom:20px; margin-top:20px}
+     div[class^="submitpackage"] .t8 .content .choose *{ float:left; margin-right:5px}
+     div[class^="submitpackage"] .t8 .content .choose{ margin-right:20px; float:left}
+     div[class^="submitpackage"] .t8 .content .c12{ margin-top:4px}
+     div[class^="submitpackage"] .t9 .title{ color:#1a9dd1;margin-bottom:20px; margin-top:20px}
+     div[class^="submitpackage"] .t9 .content  *{ float:left; margin-right:5px}
+     div[class^="submitpackage"] .t9 .content  a{ color:#1a9dd1}
+     div[class^="submitpackage"] .t9 .content .c13{ margin-top:4px}
+     div[class^="submitpackage"] .line{ width:98%; height:1px; background-color:#bcbcbc; margin-top:20px;}
+     div[class^="submitpackage"] .title1{ color:#4c4c4c; font-size:16px; font-weight:bold; margin-top:20px}
+     div[class^="submitpackage"] .line1 img{ margin-top:20px; margin-bottom:20px}
+    .save_d_package{float:right; margin: 20px 0px 0px; cursor:pointer; width: 70px;height: 30px;background: #1A9DD1;color: white;}
+    .cancel_d_package{float:right; margin-left:20px; margin-top:20px;width: 70px;
+      height: 30px;cursor: pointer;margin-right:60px;}
+    div[id^="clone_explain_"] .data_button{display: none;}
+    div[id^="clone_explain_"] .add{display: none;}
+    div[id^="cloneing_explain_"] div[id^="clone_explain_"] .data_button{display: block;}
+    div[id^="cloneing_explain_"] div[id^="clone_explain_"] .add{display: block;}
+    .refund_submit_button_p{background: url("../../Images/Pic_User/sure.png");width: 80px;height: 25px;cursor: pointer;}
+    .refund_cancel_button_p{background: url("../../Images/Pic_User/no-sure.png");width: 80px;height: 25px;cursor: pointer;}
+    .refund_submit_button_d{background: url("../../Images/Pic_User/sure.png");width: 80px;height: 25px;cursor: pointer;}
+    .refund_cancel_button_d{background: url("../../Images/Pic_User/no-sure.png");width: 80px;height: 25px;cursor: pointer;}
+    .xin11 .package_track{font-size: 12px;}
+    div[class^="show_package_default"],div[class^="show_package_split"],div[class^="show_package_add"]{display: none;}
+    .split_img_1 img{margin-top:-15px;}
+    .split_img_2 img{margin-left: 35px;margin-top: 20px;margin-right: 70px;}
+    .split_img_3 img{margin-top:20px;}
+    .add_img_1 img{margin-left: 30px;}
+    .add_img_2 img{margin-left: 45px;margin-top: 10px;}
+    .add_img_3 img{margin-top:10px;margin-left: 30px;}
+    .paybill_xin9 *{color: #999;font-size: 12px;margin-bottom: 5px;}
+    .paybill_xin9{margin-left: 120px;margin-top: 25px;}
+    .package_xin9 *{color: #999;font-size: 12px;margin-bottom: 5px;}
+    .package_xin9{margin-left: 120px;margin-top: 80px;}
+    img[class^="img_del_"]{display: none;}
+    #all_deliverys_waiting .button{margin-top: 90px;}
+    #all_packages,#all_deliverys_waiting,#all_deliverys_paybill,
+    #all_deliverys_transport,#all_deliverys_finished{display: none;} 
+    .addnewpackagegoods{margin-left: 10px;line-height: 25px;}
+    .fixed_showdelivery_button{width: 71.5%;height: 11%;position: fixed;bottom: 58px;
+    background-color: #fff;}
+    .fixed_showdelivery_button_delivery{width: 88.5%;height: 11%;position: fixed;bottom: 8%;
+    background-color: #fff;}
+    @media screen and (-webkit-min-device-pixel-ratio:0){.fixed_showdelivery_button_delivery{bottom:7%}}
+    div[id^="sendvaluepack_"] .add_delivery_word{color: white;}
+    div[id^="savestockgood"] .save_stock_good_word{color: white;}
+    .cancel_mystock_goods_icon,.cancel_mystock_add_icon,.cancel_mystock_default_icon,
+    .cancel_delivery_goods_icon{cursor: pointer;margin-right: 20px;float:right;
+      margin-top: 10px;transition:1s;}
+    .cancel_delivery_default_icon{cursor: pointer;margin-right: 20px;float: right;
+      margin-top: -5px;transition:1s;}
+    .cancel_mystock_delivery_icon{cursor: pointer;margin-right: 20px;float: right;
+      transition:1s;}
+    .delivery_default_close{margin-top: -580px;margin-left: 1100px;cursor: pointer;transition:1s;}
+    .delivery_delivery_close{float:right;cursor: pointer;margin-right:20px;transition:1s;}
+    .cancel_mystock_goods_icon:hover{ transform:rotate(180deg)}
+    .cancel_mystock_add_icon:hover{ transform:rotate(180deg)}
+    .cancel_mystock_default_icon:hover{ transform:rotate(180deg)}
+    .cancel_delivery_goods_icon:hover{ transform:rotate(180deg)}
+    .cancel_delivery_default_icon:hover{ transform:rotate(180deg)}
+    .cancel_mystock_delivery_icon:hover{ transform:rotate(180deg)}
+    .delivery_default_close:hover{ transform:rotate(180deg)}
+    .delivery_delivery_close:hover{ transform:rotate(180deg)}
+    div[id^="cloneing_explain_"] div[id^="deliverywait_"]{display:none;}
+    div[id^="cloneing_explain_"] div[id^="sendvaluepack_"]{display:none;}
+    input[id^="clone_delivery_no_"]{color: white;background-color:#b3b3b3;border-radius: 90px;height: 18px;
+      width: 18px;margin-left:15%;margin-top: 14px;display:none;margin-right:5px;text-indent: 5px;}
+    @media screen and (-webkit-min-device-pixel-ratio:0){input[id^="clone_delivery_no_"]{line-height:10px;}}
+    div[id^="cloneing_explain_"] input[id^="clone_delivery_no_"]{display:block;}

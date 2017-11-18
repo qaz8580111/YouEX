@@ -1,0 +1,52 @@
+ul,dl,dd{ margin:0}
+     ul{ padding:0; list-style:none}
+    body{
+	margin: 0;
+	background-color: #f0f0f0;
+	font-family: "微软雅黑";
+}
+	img{ display:block}
+	*{ font-size:14px; font-family:"微软雅黑"; color:#FFF}
+	a{ text-decoration:none;}
+	.last-div{ clear:both}
+	.top-nav-box,.last-nav-box,.content-box{ width:1150px; margin-left:auto; margin-right:auto}
+    .top-nav-bj{ background-color:#3b3a38; height:55px; min-width:1150px}
+	.top-nav .left *{ float:left;}
+	.top-nav .left img{ margin-top:19px; margin-right:60px}
+	.top-nav .left a{ line-height:55px; margin-right:60px}
+	.top-nav .left .one{ margin-top:13px}
+	.top-nav .right a{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+	.top-nav .right div{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+    .content-1{ width:100%; height:auto; background-color:#e5e5e5; background-image:url("../../Images/Pic_User/operating1.png"); overflow:hidden; background-repeat:no-repeat; background-position:center}
+	.content-1 .title{ font-size:36px; margin-left:502px; color:#4c4c4c; margin-top:50px; margin-bottom:50px}
+	.content-1 img{ float:left; margin-left:40px}
+	.green-box{ float:left; margin-top:220px; margin-left:50px}
+	.green-k{ border:solid 1px #009b00; width:45px; height:45px; display:block; }
+    .green-w{ color:#4c4c4c; margin-left:55px; margin-top:-30px; display:block}
+	.red-k{ border:solid 1px red; width:45px; height:45px; display:block; margin-top:30px}
+    .red-w{ color:#4c4c4c; margin-left:55px; margin-top:-40px; display:block}
+	.blue-k{ border:solid 1px #00a0e9; width:45px; height:45px; display:block; margin-top:30px}
+    .blue-w{ color:#4c4c4c; margin-left:55px; margin-top:-40px; display:block}
+	.content-2{ width:100%; height:auto; background-color:#FFF; background-image:url("../../Images/Pic_User/operating2.png"); overflow:hidden; background-repeat:no-repeat; background-position:center}
+	.content-2 img{ float:right; margin-right:40px; margin-top:40px; margin-bottom:40px}
+	@font-face{ font-family:"you"; src:url("../fonts/SIMYOU.TTF")}
+	.content-2 .title{ color:#4c4c4c; font-size:36px; font-family:you}
+	.note-box{ margin-top:160px; float:left; margin-left:100px}
+	.purple-k{ border:solid 1px #0000ff; width:45px; height:45px; display:block; margin-top:30px}
+	.purple-w{ color:#4c4c4c; margin-left:55px; margin-top:-50px;}
+	.content-3{ width:100%; height:auto; background-color:#e5e5e5;  overflow:hidden; background-repeat:no-repeat;}
+	.content-3 .title{color:#4c4c4c; font-size:36px; font-family:you; margin-left:515px; margin-top:50px}
+	.content-3 .title-1{color:#4c4c4c; margin-left:100px; margin-top:50px; font-weight:bold}
+	.content-3 .word{ text-indent:-70px; color:#4c4c4c; margin-left:400px; margin-top:30px}
+	.content-3 img{ margin-top:10px; margin-left:100px; margin-bottom:40px}
+	.content-4{ width:100%; height:auto; background-color:#FFF;  overflow:hidden;}
+	.content-4 .title{color:#4c4c4c; font-size:36px; font-family:you; margin-left:515px; margin-top:50px}
+	.content-4 .word-box{ color:#4c4c4c; font-size:24px; font-family:you; margin-left:390px; margin-top:50px}
+	.content-4 img{ margin-left:500px; margin-top:30px; margin-bottom:20px}
+	.word-box a{ color:#1a9dd1;font-size:24px;font-family:you}
+	.last-nav-bj{ background-color:#3b3a39; height:55px; min-width:1150px}
+	.last-nav-bj *{ font-size:12px; font-family:"宋体";line-height:55px;}
+	.last-nav-bj .left{ float:left}
+	.last-nav-bj .right{ float:right}
+	.last-nav-bj .right img{ float:right; margin-right:11px; margin-top:17px; }
+	.last-nav-bj .weixin{ margin-left:-30px}

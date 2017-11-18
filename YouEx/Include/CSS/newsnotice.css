@@ -1,0 +1,100 @@
+input{margin:0; border:none; padding:0;background-color:#f0f0f0; border:solid 1px #b2b2b2; color:#666666; margin-top:15px;}
+     ul,dl,dd{ margin:0}
+     ul{ padding:0; list-style:none}
+    body{ margin:0; background-color:#f0f0f0}
+	img{ display:block;}
+	*{ font-size:14px; font-family:"微软雅黑"; color:#FFF}
+	a{ text-decoration:none;}
+	.top-nav-box,.last-nav-box,.content{ width:1150px; margin-left:auto; margin-right:auto}
+    .top-nav-bj{ background-color:#3b3a38; height:55px; min-width:1150px}
+	.top-nav .left *{ float:left;}
+	.top-nav .left img{ margin-top:19px; margin-right:60px}
+	.top-nav .left a{ line-height:55px; margin-right:60px}
+	.top-nav .left .one{ margin-top:13px}
+	.top-nav .right a{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+	.top-nav .right div{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+	.content .news-nav .word2{ color:#808080; float:left; margin-left:50px; margin-top:40px}
+	.content .news-nav .word1{ color:#4c4c4c; float:left; margin-left:5px; margin-top:40px}
+	.last-div{ clear:both}
+	.line-blue{ background-color:#1a9dd1; width:64px; height:1px; margin-top:5px; margin-left:2px}
+	.content .news-nav .line{ width:1150px; height:1px; background-color:#b2b2b2}
+	.content .news-title{ width:1150px; border:solid 1px #b2b2b2; overflow:hidden; margin-top:20px;min-height:332px;padding-bottom: 50px;}
+	.content .news-title .word1 .laba{ float:left; margin-left:23px; margin-top:30px}
+	.content .news-title .word1 .c-word{ float:left; margin-left:10px; color:#666666; margin-top:30px}
+	.content .news-title .word1 .c-word2{ float:right; margin-right:25px; color:#b2b2b2; font-size:12px; margin-top:30px}
+	.content .news-title .word1 .xuxian{ width:1110px; margin-left:18px; margin-top:15px}
+	.content .news-title .word2 .laba{ float:left; margin-left:23px; margin-top:20px}
+	.content .news-title .word2 .c-word{ float:left; margin-left:10px; color:#666666; margin-top:20px}
+	.content .news-title .word2 .c-word a{color:#666;}
+	.content .news-title .word2 .c-word2{ float:right; margin-right:25px; color:#b2b2b2; font-size:12px; margin-top:20px}
+	.content .news-title .word2 .xuxian{ width:1110px; margin-left:18px; margin-top:15px}
+	.content .news-title .word3 .laba{ float:left; margin-left:23px; margin-top:20px}
+	.content .news-title .word3 .c-word{ float:left; margin-left:10px; color:#666666; margin-top:20px}
+	.content .news-title .word3 .c-word2{ float:right; margin-right:25px; color:#b2b2b2; font-size:12px; margin-top:20px}
+	.content .news-title .word3 .xuxian{ width:1110px; margin-left:18px; margin-top:15px; margin-bottom:40px}
+	 input{ background-color:#f0f0f0; border:solid 1px #b2b2b2; color:#666666; margin-top:15px; cursor:pointer}	
+	.content .input-2{ width:25px; height:25px;}
+	.content .input-3{ width:60px; height:25px}
+	.input-box{margin-left:938px; margin-bottom:15px}
+	.input-box1{margin-left:160px; margin-bottom:15px}
+	.input-state{ background-color:#1a9dd1; color:#FFF; border:#1a9dd1}
+	.news-content{ width:750px; border:solid 1px #b2b2b2; float:left}
+	.news-content .news-content-t{ font-size:16px; color:#666666; text-align:center; margin-bottom:20px; margin-top:20px}
+	.news-content .news-content-w{ float:left; margin-left:20px; color:#666666;font-size:12px}
+	.news-content .news-content-w1{ float:right; margin-right:30px; color:#666666;font-size:12px}
+	.news-content .news-content-w2{ margin-left:20px; color:#666666; margin-top:40px; margin-bottom:50px; line-height:23px; font-size:12px}
+	.news-content .line1{ width:710px; height:1px; background-color:#b2b2b2; margin-left:auto; margin-right:auto; margin-top:10px}
+	.comment{width:390px; border:solid 1px #b2b2b2; overflow:hidden;  margin-bottom:40px; float:right}
+	.comment .red{ width:4px; height:18px; background-color:#c75c5c; float:left; margin-left:10px; margin-top:30px}
+	.comment .comment-w1{ font-size:16px; float:left; margin-left:10px; color:#4c4c4c; margin-top:30px}
+	#ctl00_ContentPlaceHolder1_Image_Avatar{ float:left; margin-top:30px; 
+		margin-left:10px;width:50px;height:50px;}
+	.comment textarea{ margin-top:30px; width:300px; height:100px; background-color:#f0f0f0; margin-left:10px; max-width:300px;
+	 color:#808080; text-indent:10px; border:solid 1px #b2b2b2}
+	.comment .fabiao{ width:80px; height:25px; border-radius:4px; background-color:#1a9dd1; color:#FFF; text-align:center; line-height:25px; float:right;
+	margin-right:10px; margin-top:10px; cursor:pointer} 
+	.comment .comment-w2{ font-size:16px;  margin-left:10px; color:#4c4c4c; margin-top:30px}
+	.comment .line2{ width:370px; height:1px; background-color:#1a9dd1; margin-left:auto; margin-right:auto; margin-top:20px; margin-bottom:40px}
+	#ctl00_ContentPlaceHolder1_Image_UserAvatar_1,
+	#ctl00_ContentPlaceHolder1_Image_UserAvatar_2{float:left; margin-left:10px;width:50px;height:50px;display:none;}
+	.comment .comment-right{margin-left:10px; margin-bottom:40px;}
+	.comment .comment-m1{ color:#1a9dd1; font-size:12px; padding-top: 15px;margin-left: 60px;}
+	.comment .comment-t1{ color:#808080; font-size:12px; float:left; margin-left:230px;margin-top:-17px;}
+	.comment .comment-w3{ color:#808080; font-size:12px; margin-top: 10px;margin-left: 60px;}
+	.comment .line1{ width:370px; height:1px;  margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:20px; border-bottom:dashed 1px #b2b2b2}
+	.comment .zan{ float:left; margin-left:280px;cursor:pointer;}
+	.comment .cai{ float:left; margin-left:30px;cursor:pointer;}
+	.comment .comment-w4{ color:#ba0002; float:left; margin-left:5px;width:10px;}
+	.news_redirect{cursor:pointer;}
+	.news-content *{color:#666;}
+	.news-content-w2 img{max-width:700px;}
+	.last-nav-bj{position:inherit;}
+	img[id^="Image_UserAvatar_"]{width:50px;height:50px;float: left;margin-left: 10px;}
+	#ctl00_ContentPlaceHolder1_Image_MyAvatar{margin-left:10px;margin-top: 30px;width: 50px;height: 50px;float: left;}
+	.nocomment{color:#808080;text-align: center;margin-bottom: 50px;margin-top: 50px;display:none;}
+
+
+
+
+
+
+
+   .page_action{float:left;margin-left:890px;margin-bottom:10px;}
+   #ctl00_ContentPlaceHolder1_TextBox_Page{width: 30px;}
+   .hidestritemfinal,.hidestritemfinalcomment{display:none;}
+   .page_action input{margin-right: 10px;}
+   #ctl00_ContentPlaceHolder1_TextBox_Page{border:1px solid grey;text-align: center;}
+   #ctl00_ContentPlaceHolder1_Button_Redirect{background-color:#1a9dd1;width:50px;color: white;
+      border-radius: 2px;}
+   #ctl00_ContentPlaceHolder1_Button_FirstPage{background-color: unset;width:40px;height:25px;}
+   #ctl00_ContentPlaceHolder1_Button_PrevPage{background-color: unset;width:60px;height:25px;}
+   #ctl00_ContentPlaceHolder1_Button_NextPage{background-color: unset;width:60px;height:25px;}
+   #ctl00_ContentPlaceHolder1_Button_LastPage{background-color: unset;width:40px;height:25px;}
+   #ctl00_ContentPlaceHolder1_Label_IsPage,
+   #ctl00_ContentPlaceHolder1_Label_CountPage{display:none;}
+   #ctl00_ContentPlaceHolder1_Button_FirstPage_Comment{background-color: unset;width:40px;height:25px;}
+   #ctl00_ContentPlaceHolder1_Button_PrevPage_Comment{background-color: unset;width:60px;height:25px;}
+   #ctl00_ContentPlaceHolder1_Button_NextPage_Comment{background-color: unset;width:60px;height:25px;}
+   #ctl00_ContentPlaceHolder1_Button_LastPage_Comment{background-color: unset;width:40px;height:25px;}
+   #ctl00_ContentPlaceHolder1_Label_IsPage_Comment,#ctl00_ContentPlaceHolder1_Label_ClickNewsId,
+   #ctl00_ContentPlaceHolder1_Label_CountPage_NewsId,#ctl00_ContentPlaceHolder1_Label_Hidden_WhichPage,#ctl00_ContentPlaceHolder1_Label_CountPage_Comment{display:none;}

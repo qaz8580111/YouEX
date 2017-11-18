@@ -1,0 +1,33 @@
+input{ margin:0; padding:0; border:none;}
+   ul,dl,dd{ margin:0}
+     ul{ padding:0; list-style:none}
+    body{ margin:0; background-color:#f0f0f0}
+	img{ display:block}
+	*{ font-size:14px; font-family:"微软雅黑"; color:#FFF}
+	a{ text-decoration:none;}
+	.top-nav-box,.last-nav-box,.content{ width:1150px; margin-left:auto; margin-right:auto}
+    .top-nav-bj{ background-color:#3b3a38; height:55px; min-width:1150px}
+	.top-nav .left *{ float:left;}
+	.top-nav .left img{ margin-top:19px; margin-right:60px}
+	.top-nav .left a{ line-height:55px; margin-right:60px}
+	.top-nav .left .one{ margin-top:13px}
+	.top-nav .right a{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+	.top-nav .right div{ font-size:12px; font-family:"宋体"; line-height:55px; float:right}
+	.content .title{ margin-top:20px; margin-left:10px}
+	.content .title .big{ font-size:24px; color:#4c4c4c; float:left; margin-left:20px}
+	.content .title .small{ font-size:14px; color:#808080; float:left; margin-top:11px; margin-left:5px}
+	.last-div{ clear:both}
+	.content .line{ width:1150px; height:1px; background-color:#cccccc; margin-top:10px; margin-left:-10px}
+	.content .c1 .w1{ color:#4c4c4c; margin-left:110px; margin-top:50px;}
+	.content .c1 img{ margin-left:233px; box-shadow:0 4px 2px #b8b8b8;margin-top:20px;}
+	.content .c2 .w1{ color:#4c4c4c; margin-left:110px; margin-top:20px;}
+	.content .c2 img{ margin-left:233px; box-shadow:0 4px 2px #b8b8b8;margin-top:20px; margin-bottom:40px}
+	.button{ width:200px; height:40px; background-color:#1a9dd1; border-radius:4px; color:#FFF; text-align:center; line-height:40px
+	; margin-bottom:40px; margin-top:40px; cursor:pointer}
+	.button1{ width:200px; margin-left:auto; margin-right:auto}
+	.content{ width:1150px; background-color:#FFF; overflow:hidden; margin-top:20px; box-shadow:0 4px 2px #b8b8b8}
+	.last-nav-bj *{ font-size:12px; font-family:"宋体";line-height:55px;}
+	.last-nav-bj .left{ float:left}
+	.last-nav-bj .right{ float:right}
+	.last-nav-bj .right img{ float:right; margin-right:11px; margin-top:17px}
+	.last-nav-bj .weixin{ margin-left:-30px}

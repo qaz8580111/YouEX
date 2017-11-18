@@ -1,0 +1,59 @@
+input{ margin:0; padding:0; border:none;}
+    body{ margin:0; background-color:#f0f0f0}
+	img{ display:block}
+	*{ font-size:14px; font-family:"微软雅黑"; color:#FFF}
+	a{ text-decoration:none;}
+   .top-bj{ background-color:#3b3a39; height:55px;min-width:1150px}
+   .top-box,.content-box,.last-nav-box{ width:1150px; margin-left:auto; margin-right:auto;}
+   .top-box img{ padding-top:17px}
+   .line{ background-color:#bfbfbf; width:420px; height:1px; margin-left:76px}
+   .content-box *{ color:#333333}
+   .content-box .left{ margin-top:85px; margin-left:100px; float:left}
+   .sign{ margin-bottom:15px; margin-left:76px; float:left; color:#808080}
+   .activation{ margin-bottom:15px; margin-left:10px; float:left;}
+   .jian-16{ float:left; margin-left:10px; margin-top:2px}
+   .left .c1 img{ float:left;margin-left:76px;}
+   .left .c1 .word{ float:left; margin-left:10px; margin-top:8px}
+   .left .c1{ margin-top:20px}
+   .left .c2{ margin-top:20px; margin-bottom:5px;margin-left:118px}
+   .left .c3 img{ float:left;margin-left:118px;}
+   .left .c3 .word{ float:left; margin-left:10px; color:#808080; margin-top:-2px}
+   .left .c3{ margin-top:20px}
+   .left .c3 .cd{ color:#808080}
+   .left .c4 .button3{ width:80px; height:30px; color:#FFF;  text-align:center; line-height:30px; background-color:#1a9dd1; border-radius:2px; float:left; margin-top:10px; margin-left:5px; cursor:pointer; display:none}
+   .left .c4 img{ float:left;margin-left:118px;}
+   .left .c4 .word{ float:left; margin-left:10px; color:#808080; margin-top:-2px; cursor:pointer}
+   .left .c4{ margin-top:20px}
+   #ctl00_ContentPlaceHolder1_TB_ChangeEmail{ width:260px; height:30px; border:solid 1px #bfbfbf; background-color:#f0f0f0; margin-left:118px; margin-top:10px; text-indent:10px; display:none; float:left;}
+   .email_change{width:80px; height:30px; color:#FFF;  text-align:center; line-height:30px; background-color:#1a9dd1; border-radius:2px; float:left; margin-top:10px; margin-left:5px; cursor:pointer;display: none;}
+   .left .c5 img{ float:left;margin-left:118px;margin-top: 20px;}
+   .left .c5 .word{ float:left; margin-left:10px; color:#808080; margin-top:-2px; cursor:pointer}
+   .left .c5{ margin-top:20px}
+   .mobile{width:260px; height:30px; border:solid 1px #bfbfbf; background-color:#f0f0f0; margin-left:118px; margin-top:10px; text-indent:10px; float:left}
+   .get_mobile_code{width:80px; height:30px; color:#FFF;  text-align:center; line-height:30px; background-color:#1a9dd1; border-radius:2px; float:left; margin-top:10px; margin-left:5px; cursor:pointer}
+   #ctl00_ContentPlaceHolder1_TB_MobileCheck{width:260px; height:30px; border:solid 1px #bfbfbf; background-color:#f0f0f0; margin-left:118px; margin-top:10px; text-indent:10px; float:left}
+   .left .c5 .cd{ margin-top:10px; margin-bottom:-5px}
+   .left .c5 .tui{ float:left; margin-left:109px; width:10px; height:10px; }
+   .left .c5 .button3{ width:80px; height:30px; color:#FFF;  text-align:center; line-height:30px; background-color:#1a9dd1; border-radius:2px; float:left; margin-top:10px; margin-left:5px; cursor:pointer}
+   .left .c5 .button2{ width:80px; height:30px; color:#FFF;  text-align:center; line-height:30px; background-color:#1a9dd1; border-radius:2px; float:left; margin-top:10px; margin-left:5px; cursor:pointer}
+   .left .cc5{ display:none}
+   .lastdiv{ clear:both}
+   .button-mail{color:#1a9dd1; cursor:pointer; margin-left:118px}
+   .login-button{ margin-left:76px; margin-top:10px}
+   .ver-line{ width:1px; height:491px; background-color:#bfbfbf; margin-left:558px; margin-top:-250px}
+   .content-box .right{ float:right; margin-right:176px; margin-top:98px}
+   .right .word{ margin-top:30px; margin-bottom:20px}
+   .last-nav-bj{position:fixed;}
+   .last-nav-bj *{ font-size:12px; font-family:"宋体";line-height:55px;}
+   .last-nav-bj .left{ float:left}
+	.last-nav-bj .right{ float:right}
+	.last-nav-bj .right img{ float:right; margin-right:11px; margin-top:17px}
+	.last-nav-bj .weixin{ margin-left:-30px}
+	 .login-password1 {margin-top:20px; margin-left:-28px}
+   .login-password1 input{ width:260px; height:40px; border:solid 1px #bfbfbf; color:#bfbfbf; 
+   font-family:"宋体" ; font-size:12px; text-indent:20px; margin-left:20px;}
+   .login-password1 *{ float:left}
+   .login-password1 .word{ margin-top:12px}
+   .aut-login .word a{ color:#ff6157}
+  .left .cd{ background-color:#f0f0f0; border:none; cursor:pointer; margin-left:-4px;
+  display:none}
